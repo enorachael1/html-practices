@@ -4,109 +4,125 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-         body {
-          color: green;
-         font-weight: normal;
-          font-family: Verdana, Arial Geneva, Tahoma, sans-serif;
-         background-color: rgb(214, 223, 223);
-         line-height: 1.5em;
-          }
-         h1 {
-  border-bottom: 1px solid black;
-  background-color: rgb(161, 219, 161);
-  font-size: 150%;
-}
-h2 {
-  border-bottom: 1px solid black;
-  background-color: rgb(161, 219, 161);
-  font-size: 1.2em;
-}
-.black {
-  color: black;
-  font-size: 29px;
-  font-family: verdana;
-}
-p {
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.black {
-  text-decoration: underline;
-}
-.italic {
-  color: black;
-  font-size: 17px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
-}
-.para1 {
-  color: blue;
-  font-size: 15px;
-  line-height: 2.5em;
-  background-color: #89ccd8;
-  padding: 20px;
-  border-color: black;
-  border-width: 2 px;
-  border-style: solid;
-}
-.para2 {
-  color: blue;
-  font-size: 15px;
-  line-height: 2.5em;
-  background-color: #c0b4ec;
-  padding: 20px;
-  border-color: black;
-  border-width: 2 px;
-  border-style: solid;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 50px;
-  margin-right: 50px; 
-}
-.forms {
-  color: blue;
-  font-size: 15px;
-  line-height: 2.5em;
-  background-color: #c3b4ec;
-  padding: 20px;
+    /* GLOBAL RESET */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  border: 2px solid blue; 
-  margin: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 40px;
-  margin-right: 1000px;
-}
-.forms2 {
-  color: blue;
-  font-size: 15px;
-  line-height: 2.5em;
-  background-color: #ebe9f0;
-  padding: 20px;
-  border-color: black;
-  border-width: 2 px;
-  border-style: solid;
-  margin: 20px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  margin-left: 40px;
-  margin-right: 1000px; 
-}
-.img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 3px;
-  background-color: silver;
-  border-style: solid;
-  border-color: black;
-  border-width: 2px;
-}
+    body {
+      color: green;
+      font-weight: normal;
+      font-family: Verdana, Arial, Geneva, Tahoma, sans-serif;
+      background-color: rgb(214, 223, 223);
+      line-height: 1.5em;
+      padding: 15px;
+    }
 
+    h1, h2 {
+      border-bottom: 1px solid black;
+      background-color: rgb(161, 219, 161);
+    }
 
-        </style>
-    </head>
-    <body>
+    h1 {
+      font-size: 150%;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+
+    .black {
+      color: black;
+      font-size: 29px;
+      font-family: Verdana;
+      text-decoration: underline;
+    }
+
+    p {
+      color: black;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 15px;
+    }
+
+    .italic {
+      color: black;
+      font-size: 17px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: italic;
+    }
+
+    .para1 {
+      color: blue;
+      font-size: 15px;
+      line-height: 2.5em;
+      background-color: #89ccd8;
+      padding: 5px;
+      border: 2px solid black;
+      margin-bottom: 20px;
+    }
+
+    .para2 {
+      color: blue;
+      font-size: 15px;
+      line-height: 2.5em;
+      background-color: #c0b4ec;
+      padding: 5%;
+      border: 2px solid black;
+      margin: 50px 10px;
+    }
+
+    .forms,
+    .forms2 {
+      color: blue;
+      font-size: 15px;
+      line-height: 2.5em;
+      padding: 20px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .forms {
+      background-color: #c3b4ec;
+      border: 2px solid blue;
+      margin: 50px 10px;
+    }
+
+    .forms2 {
+      background-color: #ebe9f0;
+      border: 2px solid black;
+      margin: 50px 10%;
+    }
+
+    .img {
+      display: block;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: silver;
+      border: 2px solid black;
+      height: auto;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+
+    /* MEDIA QUERY FOR MOBILE SCREENS */
+    @media (max-width: 768px) {
+      .para2, .forms, .forms2 {
+        margin: 20px 10px;
+        padding: 10px;
+      }
+
+      .forms2 {
+        margin: 20px 10px;
+      }
+    }
+  </style>
+</head>
+
+        <body>
         <h1>This is my first website <br>THE BASICS OF HTML- A SIMPLE GUIDE</h1>
         <p>Welcome to my first website. Everything you want to know about the basics of HTML is in this website</p>
         <br>
@@ -201,15 +217,15 @@ p {
           <br>
           <a Name="ducks"> This is an article about ducks.</a>
           <h2>BEDROOM AESTHETICS</h2>
-           <img src="images/Pictures/image.jpg.jpg"width=300 height="400" class="img">
+           <img src="images/Pictures/image.jpg.jpg" width="auto" height="auto" class="img" >
           <h2>BEDROOM AESTHETICS 2</h2>
-        <img src="images/Pictures/image.jpg.png"width=200 height="400" class="img">
+        <img src="images/Pictures/image.jpg.png" width="auto" height="auto" class="img">
           <h2>GIRLY AESTHETICS</h2>
-          <img src="images/Pictures/image.jpg.g..jpg"width=400 class="img">
+          <img src="images/Pictures/image.jpg.g..jpg" width="aauto" height="auto" class="img">
           <P> <strong> N.B. Just missing one letter can ruin your html,<br> and you won't get the result you desire in your web page</strong></P>
           <p>on sizing and resizing images, <br> all you have to do is to add your desired or preferred width and height at the front of the image code to get what you want. </p>
           <p>we are going to be talking about nested elements briefly,<br>nested elements are elements inside another elements,<br>the only element that is not inide another element is the HTML and that is called the root element. <br>the head and the body are nested elements, they are both inside the HTML. <br> we'll call the body the parent nested element and then call the p the child of the body element,<br> it's always good to put the starting and closing tag inside the parent element, <br>putting the closing tag outside the body element is a mismanage element and it will start to cause a lot of problem. <br>always keep the element nested inside the body to keep the parent and child relationship </p>
-          <form action="method" class="forms2">
+          <form action="method" class="forms">
             <label for="firstname">First Name:</label>
             <input type="text"id=firstname > <br>
             <label for="lastname">Last Name:</label>
@@ -219,13 +235,13 @@ p {
           </form>
           <p>that was a one (single) line text box,the form element acts as a container to put in whatever input feild we want,<br> if you want it a lot wider all you have to do is the add the desirable size you want,<br>
             you can add a label to indicate what its for, so people will know the information they are entering, <br>with labels informations can be collected from user's which will be connected to our server where we will process the data. <br> we are going to be looking at a multi line text box next, <br> in the single line text box we used the input element tag <br> But in this multi-line text box we are going to use the text area element tag. <br> if you want to increase the size all you have to do is to add rows and cols and add the size.</p>
-            <form action="method" class="forms2"> comment: <br>
+            <form action="method" class="forms"> comment: <br>
                 <textarea rows="10" cols="40"  name="Comments"id="Comments:"></textarea> <br>
                 <input type="button" value="submit">
             </form>
             <p>
             if you want a submit button where the user can click, over here we get to use the input element tag again,<br> We going to add a radio buutton <br>in a radio button you get to choose one option. <br>in inputing the radio button we still have to use the input tag with the type as radio,  </p>
-            <form action="method" class="forms2">
+            <form action="method" class="forms">
                 yes:
                 <input type="radio" name="yesorno" id=""> <br>
                 No:
@@ -234,7 +250,7 @@ p {
             <p>
             next we are going to be looking at the check box. <br> the input tag is also used in inputing the checkbox where you get to pick mutiple choice, <br> we use the input tag with the type as checkbox, <br> if you want one of the options to always be checked all you have to do is to use the checked attribute. <br> The user can always deselct this at anytime but whenever the page shows it as already been checked.
             </p>
-            <form action="method" class="forms2">
+            <form action="method" class="forms">
                 <input type="checkbox" name=""checked="checked">Football<br>
                 <input type="checkbox" name="">Basketball <br>
                 <input type="checkbox" name="">Hockey <br>
@@ -242,14 +258,14 @@ p {
             </form>
             <p>
             the difference between checkbox and radio is in checkbox you get to select more than one options  <br>but in radio you get to choose just one option. <br> Next we are going to go over the number input element,<br>once again we are going to be using the input element but this time with the type as number, here is an example, <br> in this web control box it only allow users to input numbers no characters or letters just numbers, <br> so what if you want a minimum and a maximum amount of number? <br> yeah thats where our minimum and maximun attribute come to use, <br> i'll give an example of that too </p>
-            <form action="method" class="forms2">
+            <form action="method" class="forms">
                 <input type="number"><br>
                 <input type="number" min="1" max="50"> <br>
                 <input type="button" value="submit">
             </form>
             <p>
             next we are going to go over how to set up a drop down list in HTML, this is different from a checkbox we did a while ago,<br> a checkbox allow the user to select as many option as the want but a drop down-list allow the user to select one option, <br>it is the select element that we use to create the drop down list we use an opening tag and a closing tag <br> and we use the option element imbedded inside the select element, <br> here are examples</p>
-            <form action="method" class="forms2">
+            <form action="method" class="forms">
                 <select name="" id="">
                     <option value="London">London</option>
                     <option value="Manchester">Manchester</option>
@@ -257,13 +273,13 @@ p {
                 </select>
             </form> 
            <p> Next we'll be seting up the date and time box, this highlights the date and enable the user input a date and the number of days they want, <br> a minimum and maximum amount of days can also be set </p>
-            <form action="method" class="forms2">
+            <form action="method" class="forms">
                 Enter a day you want to travel to America:
                 <input type="date" name="Day" id="Day"> <br>
                 Number of days: <input type="date" name="NumDays" id="NumDays" min="1" max="10">
             </form>
            <p> we are going to look at other things we can do with the Form element, <br> and one of it is the Feildbox and legend element, the field form add some nice styling to you form </p>
-            <form action="mathod" class="forms2">
+            <form action="mathod" class="forms">
                 <fieldset>
               <legend>Enter a day you want to travel to America:</legend>
              <input type="date" name="Day" id="Day"> <br>
@@ -279,7 +295,7 @@ p {
           <p>this is an <i>italic element</i></p>
           <p>This is an<em> EM element</em></p>
           <p>next we are going to look at iframes in html, iframe is another html document that we could imbed into our existing web page, <br>and we can do that with the iframe element, it can be use to insert content from other pages, <br>
-            <iframe src="first" id="ouriframe" frameborder="1" width="200" height="200">
+            <iframe src="first" id="ouriframe" frameborder="1" width="200" height="200" ">
             </iframe> <br>
             <a href="second" target="ouriframe">switch to new document</a>  <br>
            <p> Next we'll look at the sup and sub elements, the sup element stands for superscript and the sub element stands for subscript,<br> the sup element allows you to display text above the main body of the text, <br> while subscript allows you to display the text below the main text,</p>
@@ -353,7 +369,7 @@ p {
             </ul>
             <blockquote class="black underline"><strong>Common CSS properties</strong></blockquote>
             <p>There are various css properties some are;</p>
-            <table class="forms2">
+            <table class="forms">
               <tr>
               <th>PROPERTY</th> 
               <th>DESCRIPTION</th>
@@ -400,17 +416,17 @@ p {
               </tr>
             </table>
             <blockquote class="black underline"> <strong>What Does "Cascading" Mean? </strong> </blockquote>
-            <p>CSS follows a hierarchy where some rules take priority over others. The order of importance (from highest to lowest) </p>
+            <p class="para2">CSS follows a hierarchy where some rules take priority over others. The order of importance (from highest to lowest) </p>
             <ol>
               <li>Inline styles</li>
               <li>Internal styles (in the head section)</li>
               <li>External styles (linked CSS file)</li>
             </ol>
             <p>More specific rules override general ones. The last rule written will override earlier ones if they conflict.</p>
-            <blockquote class="black underline">
+            <blockquote class="black underline" >
              <strong> BASICS OF CSS </strong>
             </blockquote>
-            <p>classes can be applied to as many different element as possible, you just have to remove the individual elements in front of it, if you just put a dot and the class it will apply to the element, you can asls apply multiple classes to an element, we do that by adding a class name right pass our existing class name, the font font-family property allows us to control display on the browser,the font-weight properties allows you to control the thickness of your font, so far we have been looking at internal style sheet next we'll look at external style sheet  </p>
+            <p class="para1">classes can be applied to as many different element as possible, you just have to remove the individual elements in front of it, if you just put a dot and the class it will apply to the element, you can asls apply multiple classes to an element, we do that by adding a class name right pass our existing class name, the font font-family property allows us to control display on the browser,the font-weight properties allows you to control the thickness of your font, so far we have been looking at internal style sheet next we'll look at external style sheet  </p>
             
 
             
