@@ -4,34 +4,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
-         body{
-         color:green; font-weight:normal;
-         font-family: Verdana, Arial Geneva, Tahoma, sans-serif;
-         background-color: rgba(216, 203, 214, 0.911);
-        }
-
-           h1, h2 {
-           border-bottom: 1px solid black;
-            background-color:rgb(196, 194, 194);
-            }
-            .black{color: black ; 
-               font-size: 29 px;
-              font-family:verdana;
-            }
-            p {color: black;
-               font-size: 25 px;
-                font-family:Arial, Helvetica, sans-serif;
-              }
-                .black{
-                  text-decoration: underline;
-                }body {
-  color: green;
-  font-weight: normal;
-  font-family: Verdana, Arial Geneva, Tahoma, sans-serif;
-  background-color: rgb(214, 223, 223);
-  line-height: 1.5em;
-}
-h1 {
+         body {
+          color: green;
+         font-weight: normal;
+          font-family: Verdana, Arial Geneva, Tahoma, sans-serif;
+         background-color: rgb(214, 223, 223);
+         line-height: 1.5em;
+          }
+         h1 {
   border-bottom: 1px solid black;
   background-color: rgb(161, 219, 161);
   font-size: 150%;
@@ -90,10 +70,8 @@ p {
   line-height: 2.5em;
   background-color: #c3b4ec;
   padding: 20px;
-  border-color: black blue pink yellow;
-    border-width: 2px 10px 50px 70px;
-  border-style: solid double dotted dashed;
-  /* border: 2px solid blue; */
+
+  border: 2px solid blue; 
   margin: 20px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -113,7 +91,7 @@ p {
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 40px;
-  margin-right: 1000px;
+  /* margin-right: 1000px; */
 }
 .img {
   display: block;
@@ -224,17 +202,17 @@ p {
           <br>
           <a Name="ducks"> This is an article about ducks.</a>
           <h2>BEDROOM AESTHETICS</h2>
-           <img src="images/Pictures/image.jpg.jpg"width=300 height="400"></img> 
+           <img src="images/Pictures/image.jpg.jpg"width=300 height="400" class="img">
           <h2>BEDROOM AESTHETICS 2</h2>
-        <img src="images/Pictures/image.jpg.png"width=200 height="400"></img> 
+        <img src="images/Pictures/image.jpg.png"width=200 height="400" class="img">
           <h2>GIRLY AESTHETICS</h2>
-          <img src="images/Pictures/image.jpg.g..jpg"width=400></img> 
+          <img src="images/Pictures/image.jpg.g..jpg"width=400 class="img">
           <P> <strong> N.B. Just missing one letter can ruin your html,<br> and you won't get the result you desire in your web page</strong></P>
           <p>on sizing and resizing images, <br> all you have to do is to add your desired or preferred width and height at the front of the image code to get what you want. </p>
           <p>we are going to be talking about nested elements briefly,<br>nested elements are elements inside another elements,<br>the only element that is not inide another element is the HTML and that is called the root element. <br>the head and the body are nested elements, they are both inside the HTML. <br> we'll call the body the parent nested element and then call the p the child of the body element,<br> it's always good to put the starting and closing tag inside the parent element, <br>putting the closing tag outside the body element is a mismanage element and it will start to cause a lot of problem. <br>always keep the element nested inside the body to keep the parent and child relationship </p>
-          <form action="method">
+          <form action="method" class="forms2">
             <label for="firstname">First Name:</label>
-            <input type="text"id=firstname size=40> <br>
+            <input type="text"id=firstname > <br>
             <label for="lastname">Last Name:</label>
             <input type="text"id=lastname> <br>
             <label for="Middlename">Middle Name:</label>
@@ -242,13 +220,13 @@ p {
           </form>
           <p>that was a one (single) line text box,the form element acts as a container to put in whatever input feild we want,<br> if you want it a lot wider all you have to do is the add the desirable size you want,<br>
             you can add a label to indicate what its for, so people will know the information they are entering, <br>with labels informations can be collected from user's which will be connected to our server where we will process the data. <br> we are going to be looking at a multi line text box next, <br> in the single line text box we used the input element tag <br> But in this multi-line text box we are going to use the text area element tag. <br> if you want to increase the size all you have to do is to add rows and cols and add the size.</p>
-            <form action="method"> comment: <br>
+            <form action="method" class="forms2"> comment: <br>
                 <textarea rows="10" cols="40"  name="Comments"id="Comments:"></textarea> <br>
                 <input type="button" value="submit">
             </form>
             <p>
             if you want a submit button where the user can click, over here we get to use the input element tag again,<br> We going to add a radio buutton <br>in a radio button you get to choose one option. <br>in inputing the radio button we still have to use the input tag with the type as radio,  </p>
-            <form action="method">
+            <form action="method" class="forms2">
                 yes:
                 <input type="radio" name="yesorno" id=""> <br>
                 No:
@@ -257,7 +235,7 @@ p {
             <p>
             next we are going to be looking at the check box. <br> the input tag is also used in inputing the checkbox where you get to pick mutiple choice, <br> we use the input tag with the type as checkbox, <br> if you want one of the options to always be checked all you have to do is to use the checked attribute. <br> The user can always deselct this at anytime but whenever the page shows it as already been checked.
             </p>
-            <form action="method">
+            <form action="method" class="forms2">
                 <input type="checkbox" name=""checked="checked">Football<br>
                 <input type="checkbox" name="">Basketball <br>
                 <input type="checkbox" name="">Hockey <br>
@@ -265,14 +243,14 @@ p {
             </form>
             <p>
             the difference between checkbox and radio is in checkbox you get to select more than one options  <br>but in radio you get to choose just one option. <br> Next we are going to go over the number input element,<br>once again we are going to be using the input element but this time with the type as number, here is an example, <br> in this web control box it only allow users to input numbers no characters or letters just numbers, <br> so what if you want a minimum and a maximum amount of number? <br> yeah thats where our minimum and maximun attribute come to use, <br> i'll give an example of that too </p>
-            <form action="method">
+            <form action="method" class="forms2">
                 <input type="number"><br>
                 <input type="number" min="1" max="50"> <br>
                 <input type="button" value="submit">
             </form>
             <p>
             next we are going to go over how to set up a drop down list in HTML, this is different from a checkbox we did a while ago,<br> a checkbox allow the user to select as many option as the want but a drop down-list allow the user to select one option, <br>it is the select element that we use to create the drop down list we use an opening tag and a closing tag <br> and we use the option element imbedded inside the select element, <br> here are examples</p>
-            <form action="method">
+            <form action="method" class="forms2">
                 <select name="" id="">
                     <option value="London">London</option>
                     <option value="Manchester">Manchester</option>
@@ -280,13 +258,13 @@ p {
                 </select>
             </form> 
            <p> Next we'll be seting up the date and time box, this highlights the date and enable the user input a date and the number of days they want, <br> a minimum and maximum amount of days can also be set </p>
-            <form action="method">
+            <form action="method" class="forms2">
                 Enter a day you want to travel to America:
                 <input type="date" name="Day" id="Day"> <br>
                 Number of days: <input type="date" name="NumDays" id="NumDays" min="1" max="10">
             </form>
            <p> we are going to look at other things we can do with the Form element, <br> and one of it is the Feildbox and legend element, the field form add some nice styling to you form </p>
-            <form action="mathod">
+            <form action="mathod" class="forms2">
                 <fieldset>
               <legend>Enter a day you want to travel to America:</legend>
              <input type="date" name="Day" id="Day"> <br>
@@ -309,7 +287,7 @@ p {
             <p>an example of superscript, <b>Destiny encounter is july 25<sup>th</sup></b></p>
             <p>an example of subscript, <b>There's plenty of H<sub>2</sub>O in the lake</b></p>
            <p> next we are going to deal with the title and alt attributes,  <br>the title attribute allow you get a title when you hover over an image, <br>i'll give an example of it. </p> <br>
-            <img src="images/Pictures/image.jpg.g.jpg" title="pink living room aesthetics"> <br>
+            <img src="images/Pictures/image.jpg.g.jpg" title="pink living room aesthetics" class="img"> <br>
              <p>that was for the title attribute <br>
               the alt attribute stands for alternate text for an image,<br> what it really allows is incase we can't display an image for a reason,<br> like if we have the wrong path or the image is no longer there you can display alternate text so that at least something is displayed,<br> i'll give an example of it too <br>
               <img src="images/Pictures/image.jpg.g.jpg i" title="pink living room aesthetics" alt="image.jpg.g.jpg"> <br> thats a perfect example, when you hover the image the title is there and an alternate is there since the path is broken but it shows an image is there. <br></p>
@@ -376,7 +354,7 @@ p {
             </ul>
             <blockquote class="black underline"><strong>Common CSS properties</strong></blockquote>
             <p>There are various css properties some are;</p>
-            <table>
+            <table class="forms2">
               <tr>
               <th>PROPERTY</th> 
               <th>DESCRIPTION</th>
