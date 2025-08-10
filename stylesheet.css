@@ -59,15 +59,16 @@ p {
   margin-bottom: 20px;
 }
 
-.para2 {
-  color: blue;
-  font-size: 15px;
-  line-height: 2.5em;
-  background-color: #c0b4ec;
-  padding: 5%;
-  border: 2px solid black;
-  margin: 50px 10px;
-}
+.para2{
+        color: blue;
+        font-size: 15px;
+        line-height: 2.5em;
+        background-color: #c0b4ec;
+        padding: 5%;
+        border: 2px solid black;
+        margin: 50px 10px;
+        background-image: url(source.gif);
+      }
 
 .forms,
 .forms2 {

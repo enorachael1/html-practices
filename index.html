@@ -74,6 +74,7 @@
         padding: 5%;
         border: 2px solid black;
         margin: 50px 10px;
+        background-image: url(source.gif);
       }
 
       .forms,
@@ -636,7 +637,7 @@
       pages, for example to change the color of text, align items, create
       spacing,and make your web responsive on different devices.
     </p>
-    <h2>WHAT IS CSS?</h2>
+    <h2 class="black underline">WHAT IS CSS?</h2>
     <p>
       CSS is a language that describes how the HTML elements are to be displayed
       on screen, paper, or in other media.
@@ -699,8 +700,8 @@
     <p>There are various css properties some are;</p>
     <table class="forms">
       <tr>
-        <th>PROPERTY</th>
-        <th>DESCRIPTION</th>
+        <th class="black underline">PROPERTY</th>
+        <th class="black underline">DESCRIPTION</th>
       </tr>
       <tr>
         <td>Color</td>
@@ -770,7 +771,68 @@
       pass our existing class name, the font font-family property allows us to
       control display on the browser,the font-weight properties allows you to
       control the thickness of your font, so far we have been looking at
-      internal style sheet next we'll look at external style sheet
+      internal style sheet next we'll look at external style sheet. You specify
+      an id in css by using the hash symbol, the id attributeis for a specific
+      set of css code you want to apply for a specific element.
     </p>
+    <h2 class="black underline">The ID Attribute In CSS</h2>
+    &nbsp;
+
+    <blockquote class="black underline">
+      <strong>What Is An ID?</strong>
+    </blockquote>
+    &nbsp;
+    <ul>
+      <li>An ID is a unique identifier assigned to an HTML element.</li>
+      <li>It helps to identify one specific element on a webpage.</li>
+      <li>
+        An ID must be unique within a page no two elements should have the same
+        ID.
+      </li>
+    </ul>
+    <h2 class="black underline">Purpose of the ID attribute</h2>
+    <ul>
+      <li>Used to apply styles to a specific element.</li>
+      <li>Used to target an element for javascript or link anchors.</li>
+      <li>
+        Helps with navigation and scripting by providing a unique reference.
+      </li>
+    </ul>
+    <h2 class="black underline">How CSS uses IDs</h2>
+    &nbsp;
+    <ul>
+      <li>
+        In CSS, you use the ID selector to target an element with a specific ID.
+      </li>
+      <li>
+        The ID selector is marked by a hash symbol (#) followed by th ID name.
+      </li>
+      <li>
+        Because IDs are unique, styles applied to an ID only affect that one
+        element.
+      </li>
+    </ul>
+    <h2 class="black underline">Example Uses Of IDs</h2>
+    &nbsp;
+    <ul>
+      <li>Styling a single button differently from others.</li>
+      <li>Highlighting a specific section or heading.</li>
+      <li>Linkink directly to a part of the page via an anchor link.</li>
+      <li>Using javascript to manupulate that element specifically.</li>
+    </ul>
+    &nbsp;
+    <h2 class="black underline">Important Points About IDs</h2>
+    &nbsp;
+    <ul>
+      <li>Each ID value should be unique on a webpage, use IDs carefully.</li>
+      <li>
+        IDs have higher specificity than class selectors, so they override class
+        styles when both apply.
+      </li>
+      <li>
+        If you want to style multiple elements the same way, use classes instead
+        of IDs
+      </li>
+    </ul>
   </body>
 </html>
