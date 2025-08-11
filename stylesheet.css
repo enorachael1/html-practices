@@ -1,4 +1,6 @@
-style {
+style
+      /* GLOBAL RESET */
+      * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -37,7 +39,7 @@ h2 {
 }
 
 p {
-  color: black;
+  color:green;
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 15px;
 }
@@ -49,26 +51,26 @@ p {
   font-style: italic;
 }
 
-.para1 {
-  color: blue;
+#para1 {
+  color: green;
   font-size: 15px;
   line-height: 2.5em;
-  background-color: #89ccd8;
+  background-color: rgb(214, 223, 223);
   padding: 5px;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin-bottom: 20px;
 }
 
-.para2{
-        color: blue;
-        font-size: 15px;
-        line-height: 2.5em;
-        background-color: #c0b4ec;
-        padding: 5%;
-        border: 2px solid black;
-        margin: 50px 10px;
-        background-image: url(source.gif);
-      }
+.para2 {
+  color: rgb(77, 77, 218);
+  font-size: 15px;
+  line-height: 2.5em;
+  background-color: #c0b4ec;
+  padding: 5%;
+  border: 2px solid black;
+  margin: 50px 10px;
+  background-image: url(source.gif);
+}
 
 .forms,
 .forms2 {
@@ -134,11 +136,9 @@ ol {
   padding-left: 20px;
   margin-bottom: 20px;
 }
-
 ul {
   list-style-type: disc;
 }
-
 ol {
   list-style-type: decimal;
 }

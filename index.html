@@ -24,6 +24,7 @@
       h2 {
         border-bottom: 1px solid black;
         background-color: rgb(161, 219, 161);
+        text-align: center;
       }
 
       h1 {
@@ -44,7 +45,7 @@
       }
 
       p {
-        color: black;
+        color: green;
         font-family: Arial, Helvetica, sans-serif;
         margin-bottom: 15px;
       }
@@ -56,13 +57,13 @@
         font-style: italic;
       }
 
-      .para1 {
-        color: blue;
+      #para1 {
+        color: green;
         font-size: 15px;
         line-height: 2.5em;
-        background-color: #89ccd8;
+        background-color: rgb(214, 223, 223);
         padding: 5px;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin-bottom: 20px;
       }
 
@@ -146,6 +147,9 @@
       }
       ol {
         list-style-type: decimal;
+      }
+      .highlights {
+        background-color: #ff0;
       }
     </style>
   </head>
@@ -231,7 +235,7 @@
       <li>Lay the foundation before styling or adding interactions</li>
     </ul>
 
-    <p class="pink">
+    <p class="para1">
       Basic tags in HTML include the (h) for a new heading, the (p) for a new
       paragraph,<br />
       the (Br) to add a line break, the(AND SIGN+nbsp;) to give a space, &nbsp;
@@ -254,7 +258,7 @@
       <li>CD</li>
       <li>Blu RAY</li>
     </ol>
-    <p class="pink">
+    <p class="para1">
       The difference between the UNORDERED LIST AND THE ORDERED LIST can be
       seen,<br />
       the ordered list are the ones with numbers while the unordered are without
@@ -462,7 +466,7 @@
         Name: <input type="text" />
       </fieldset>
     </form>
-    <p class="pink">
+    <p id="parapink">
       we are going to take a break from coding and talk about HTML again,<br />
       so we'll be looking at attributes in HTML, as we know elements are made of
       of tags an openig tag and a closing tag, <br />
@@ -602,12 +606,20 @@
       it is important that the DOCTYPE is not an HTML tag it is an instruction
       to the web browser about what version of HTML the page needs to use.
       <br />
-      <strong>AND THIS IS THE END OF BASIC HTML FOR BEGINNERS</strong>
+      <strong>AND THIS IS THE END OF BASIC HTML FOR BEGINNERS.</strong>
     </p>
-    <br />
-    <h2><blockquote>We are going to talk about css next</blockquote></h2>
+
     <p>
-      What is CSS? <br />
+      <strong
+        ><span class="highlights">
+          We are going to talk about css next.</span
+        ></strong
+      >
+    </p>
+
+    <h2>What is CSS?</h2>
+    &nbsp;
+    <p>
       CSS means CASCADING STYLE SHEETS, it is a style sheet language use for
       describing the look and formating of a document written in a markup
       language, <br />It adds style to the HTML, it can completely change how
@@ -633,11 +645,13 @@
     </p>
     <h1><blockquote>INTRODUCTION TO CSS</blockquote></h1>
     <p>
-      CSS stands for Cascading style sheets. It is used to style and layout web
-      pages, for example to change the color of text, align items, create
-      spacing,and make your web responsive on different devices.
+      CSS stands for <span class="highlights"> Cascading style sheets</span>. It
+      is used to style and layout web pages, for example to change the color of
+      text, align items, create spacing,and make your web responsive on
+      different devices.
     </p>
     <h2 class="black underline">WHAT IS CSS?</h2>
+    &nbsp;
     <p>
       CSS is a language that describes how the HTML elements are to be displayed
       on screen, paper, or in other media.
@@ -694,9 +708,8 @@
       <li>Best practice for large websites.</li>
       <li>Keeps content (HTML) and designs (CSS) seperate.</li>
     </ul>
-    <blockquote class="black underline">
-      <strong>Common CSS properties</strong>
-    </blockquote>
+    <h2 class="black underline">Common CSS properties</h2>
+    &nbsp;
     <p>There are various css properties some are;</p>
     <table class="forms">
       <tr>
@@ -744,9 +757,9 @@
         <td>Controls layout behavior(inline,block,flex)</td>
       </tr>
     </table>
-    <blockquote class="black underline">
+    <h2 class="black underline">
       <strong>What Does "Cascading" Mean? </strong>
-    </blockquote>
+    </h2>
     <p class="para2">
       CSS follows a hierarchy where some rules take priority over others. The
       order of importance (from highest to lowest)
@@ -760,9 +773,9 @@
       More specific rules override general ones. The last rule written will
       override earlier ones if they conflict.
     </p>
-    <blockquote class="black underline">
+    <h2 class="black underline">
       <strong> BASICS OF CSS </strong>
-    </blockquote>
+    </h2>
     <p class="para2">
       classes can be applied to as many different element as possible, you just
       have to remove the individual elements in front of it, if you just put a
@@ -778,9 +791,7 @@
     <h2 class="black underline">The ID Attribute In CSS</h2>
     &nbsp;
 
-    <blockquote class="black underline">
-      <strong>What Is An ID?</strong>
-    </blockquote>
+    <h2 class="black underline">What Is An ID?</h2>
     &nbsp;
     <ul>
       <li>An ID is a unique identifier assigned to an HTML element.</li>
@@ -791,6 +802,7 @@
       </li>
     </ul>
     <h2 class="black underline">Purpose of the ID attribute</h2>
+    &nbsp;
     <ul>
       <li>Used to apply styles to a specific element.</li>
       <li>Used to target an element for javascript or link anchors.</li>
@@ -834,5 +846,6 @@
         of IDs
       </li>
     </ul>
+    <p>The div element, the span element</p>
   </body>
 </html>
