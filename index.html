@@ -22,6 +22,7 @@
 
       h1,
       h2 {
+        color: green;
         border-bottom: 1px solid black;
         background-color: rgb(161, 219, 161);
         text-align: center;
@@ -35,6 +36,11 @@
       h2 {
         font-size: 1.2em;
         margin-top: 20px;
+      }
+      h3 {
+        color: green;
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
       }
 
       .black {
@@ -68,7 +74,7 @@
       }
 
       .para2 {
-        color: blue;
+        color: black;
         font-size: 15px;
         line-height: 2.5em;
         background-color: #c0b4ec;
@@ -80,7 +86,7 @@
 
       .forms,
       .forms2 {
-        color: blue;
+        color: black;
         font-size: 15px;
         line-height: 2.5em;
         padding: 20px;
@@ -89,8 +95,8 @@
       }
 
       .forms {
-        background-color: #c3b4ec;
-        border: 2px solid blue;
+        background-color: #b4ecd2;
+        border: 2px solid rgb(0, 255, 42);
         margin: 50px 10px;
       }
 
@@ -150,6 +156,15 @@
       }
       .highlights {
         background-color: #ff0;
+      }
+      a :link {
+        color: blue;
+      }
+      a :visited {
+        color: #c0b4ec;
+      }
+      a :hover {
+        color: orange;
       }
     </style>
   </head>
@@ -650,7 +665,7 @@
       text, align items, create spacing,and make your web responsive on
       different devices.
     </p>
-    <h2 class="black underline">WHAT IS CSS?</h2>
+    <h2>WHAT IS CSS?</h2>
     &nbsp;
     <p>
       CSS is a language that describes how the HTML elements are to be displayed
@@ -708,13 +723,13 @@
       <li>Best practice for large websites.</li>
       <li>Keeps content (HTML) and designs (CSS) seperate.</li>
     </ul>
-    <h2 class="black underline">Common CSS properties</h2>
+    <h2>Common CSS properties</h2>
     &nbsp;
     <p>There are various css properties some are;</p>
     <table class="forms">
       <tr>
-        <th class="black underline">PROPERTY</th>
-        <th class="black underline">DESCRIPTION</th>
+        <th>PROPERTY</th>
+        <th>DESCRIPTION</th>
       </tr>
       <tr>
         <td>Color</td>
@@ -757,9 +772,7 @@
         <td>Controls layout behavior(inline,block,flex)</td>
       </tr>
     </table>
-    <h2 class="black underline">
-      <strong>What Does "Cascading" Mean? </strong>
-    </h2>
+    <h2>What Does "Cascading" Mean?</h2>
     <p class="para2">
       CSS follows a hierarchy where some rules take priority over others. The
       order of importance (from highest to lowest)
@@ -773,9 +786,7 @@
       More specific rules override general ones. The last rule written will
       override earlier ones if they conflict.
     </p>
-    <h2 class="black underline">
-      <strong> BASICS OF CSS </strong>
-    </h2>
+    <h2>BASICS OF CSS</h2>
     <p class="para2">
       classes can be applied to as many different element as possible, you just
       have to remove the individual elements in front of it, if you just put a
@@ -788,10 +799,10 @@
       an id in css by using the hash symbol, the id attributeis for a specific
       set of css code you want to apply for a specific element.
     </p>
-    <h2 class="black underline">The ID Attribute In CSS</h2>
+    <h2>The ID Attribute In CSS</h2>
     &nbsp;
 
-    <h2 class="black underline">What Is An ID?</h2>
+    <h2>What Is An ID?</h2>
     &nbsp;
     <ul>
       <li>An ID is a unique identifier assigned to an HTML element.</li>
@@ -801,7 +812,7 @@
         ID.
       </li>
     </ul>
-    <h2 class="black underline">Purpose of the ID attribute</h2>
+    <h2>Purpose of the ID attribute</h2>
     &nbsp;
     <ul>
       <li>Used to apply styles to a specific element.</li>
@@ -810,7 +821,7 @@
         Helps with navigation and scripting by providing a unique reference.
       </li>
     </ul>
-    <h2 class="black underline">How CSS uses IDs</h2>
+    <h2>How CSS uses IDs</h2>
     &nbsp;
     <ul>
       <li>
@@ -824,7 +835,7 @@
         element.
       </li>
     </ul>
-    <h2 class="black underline">Example Uses Of IDs</h2>
+    <h2>Example Uses Of IDs</h2>
     &nbsp;
     <ul>
       <li>Styling a single button differently from others.</li>
@@ -833,7 +844,7 @@
       <li>Using javascript to manupulate that element specifically.</li>
     </ul>
     &nbsp;
-    <h2 class="black underline">Important Points About IDs</h2>
+    <h2>Important Points About IDs</h2>
     &nbsp;
     <ul>
       <li>Each ID value should be unique on a webpage, use IDs carefully.</li>
@@ -853,6 +864,74 @@
       layouts, and grouping content. The span element is an inline element used
       to group inline elements and apply styles without breaking the flow of
       text.
+    </p>
+    <h3>More interesting links</h3>
+    <a href="contact.html">CSS for beginners (external css)</a> <br />
+    <a href="inline.html">CSS for beginners (inline CSS)</a>
+    <p>
+      I added this links using the anchor tag. add content page by creating new
+      HTML files and linking the same CSS to reuse styles with classes. and
+      reusing CSS classes lets you apply the same style to multiple elements,
+      making your code cleaner and easier to maintain. You can add special
+      effects using pseudo-classes like <code>:hover</code> to create
+      interactive effects when users move their mouse over elements. For
+      example, you can change the color of a button or link when hovered. Block
+      elements (like <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>,
+      <code>&lt;h1&gt;</code>) always start on a new line and take up the full
+      width available, while inline elements (like <code>&lt;span&gt;</code>,
+      <code>&lt;a&gt;</code>, <code>&lt;strong&gt;</code>) stay in the flow of
+      text and only take up as much width as needed.
+
+      <strong>Positioning Elements in CSS</strong>: CSS allows you to control
+      how elements are positioned on the page using properties like
+      <code>position</code>, <code>top</code>, <code>left</code>,
+      <code>right</code>, and <code>bottom</code>. The most common position
+      values are:
+    </p>
+
+    <ul>
+      <li>
+        <strong>static</strong> (default): Elements are positioned according to
+        the normal flow of the page.
+      </li>
+      <li>
+        <strong>relative</strong>: Elements are positioned relative to their
+        normal position.
+      </li>
+      <li>
+        <strong>absolute</strong>: Elements are positioned relative to the
+        nearest positioned ancestor (not static).
+      </li>
+      <li>
+        <strong>fixed</strong>: Elements are positioned relative to the browser
+        window and stay in place when scrolling.
+      </li>
+      <li>
+        <strong>sticky</strong>: Elements toggle between relative and fixed,
+        depending on the scroll position.
+      </li>
+    </ul>
+    <div style="position: relative">
+      <strong>Floating Elements</strong>: The <code>float</code> property allows
+      elements (like images or boxes) to "float" to the left or right of their
+      container, letting text and inline elements wrap around them.
+
+      <strong>Example:</strong> <br />
+
+      <img
+        src="images/FB_IMG_1754930393663.jpg"
+        style="position: absolute; top: 0; width: 150px"
+        &lt;=" This text will wrap around the floated image."
+      />
+    </div>
+    <br />
+
+    <p>
+      <strong>Absolute Positioning</strong>: When you use position: absolute;,
+      the element is removed from the normal flow and placed exactly where you
+      specify using top, left,right, or bottom. elements and how elements are
+      rendered in the browser, floating an element, absolute position of an
+      element, and the difference between block and inline elements.
     </p>
   </body>
 </html>

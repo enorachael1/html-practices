@@ -1,317 +1,1112 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    </head>
-    <body style="color:black;font-size: 20px;font-family:Verdana, Geneva, Tahoma, sans-serif Arial, Helvetica, sans-serif; background-color:silver ;">
-        <h1 style="color: green; text-decoration: underline; font-size: 25px; font-family: Verdana, Geneva, Tahoma, sans-serif;background-color: aliceblue;">This is my first website <br>THE BASICS OF HTML- A SIMPLE GUIDE</h1>
-        <p>Welcome to my first website. Everything you want to know about the basics of HTML is in this website</p>
-        <br>
-        <h2>INTRODUCTION TO HTML</h2>
-        <p>I'll do a brief introduction on HTML, (HYPERTEXTMARKUP LANGUAGE), </p>
-         <p>HTML stands for HYPERTEXT MARKUP LANGUAGE. <br>
-         It is the standard language used to create and structure content on the web, <br> Everything you see on the web pages, text, images, links, forms, is written using HTML.
-            HTML is a document that contains text, <br> web browsers read and display documents that contains HTML's.
-            with HTML we can add everything displayed on a web site, <br> HTML is practically the skeleton of a web site,
-         we can as well call it the building blocks of a web pages, <br> HTML is the foundation of every web pages, without it web pages wouldn't exist, even when using modern tools and platforms. <br>HTML is always working in the background. <br>
-         HTML is not a programming language but a MARKUP LANGUAGE. </p>  
-         <h2>KEY FEATURES OF HTML</h2>
-        <ul>
-          <li>Structure: HTML organizes content into headings, paragraphs, lists, and sections.</li>
-         <li>Links: It connects paages together using hyperlinks.</li>
-          <li>Media: It allows you to add image, videos, and audio to web pages.</li>
-          <li>Forms: It helps create input fields, buttons, and interactive features.</li>
-          <li>Simple and Universal: Every browser understands HTML.</li>
-        </ul>
-        <h2>UNDERSTANDING THE NAME </h2>
-        <ul>
-            <li>Hypertext: Refers to text that links to other text or web pages.</li>
-            <li>Markup: Means that HTML uses tags to "mark up" or define the different parts of a document.</li>
-            <li>Language: It's a standardized set of rules that browsers understand.</li>
-        </ul>
-        <h2>WHAT HTML IS NOT</h2>
-        <ul>
-            <li>HTML is not a programming language. It doesn't have logic like "if" or "loop".</li>
-            <li>It doesn't make things pretty on its own, that's what CSS is for.</li>
-            <li>It doesn't make things interactive, that's what javascript is for.</li>
-        </UL>
-        <h2>WHAT CAN YOU DO WITH HTML?</h2>
-        <ul>
-            <li>Build simple websites or webpages</li>
-            <li>Create your digital resume or portfolio</li>
-            <li>Write structured online articles or tutorials</li>
-            <li>Lay the foundation before styling or adding interactions</li>
-        </ul>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <style>
+    /* GLOBAL RESET */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        <p class="pink"> Basic tags in HTML include the (h) for a new heading, the (p) for a new paragraph,<br> the (Br) to add a line break, the(AND SIGN+nbsp;) to give a space, 
-          &nbsp; &nbsp; &nbsp; test,<br>
-          There are two types of list in HTML,the ordered and unordered list,<br>
-          The unordered list is added with UL IN THE ANGLE BRACKET. <br>
-          while the ordered list is added with OL IN THE ANGLE BRACKET. <br>
-          The item listed is added with LI  IN THE ANGLE BRACKET. <br>
-         I'll give some examples of ordered items and unordered items,  
-         so lets start with unordered items </p>
-        <!--This is the start of html code for the second section, and we'll start each section with a header tag -->
-        <Ul>
-             <li>DVD</li>
-             <li>CD</li> 
-            <li>Blu Ray</li>
-        </Ul>
-        <ol>
-            <li>DVD</li>
-            <li>CD</li>
-            <li>Blu RAY</li>
-        </ol>
-        <P class="pink">The difference between the UNORDERED LIST AND THE ORDERED LIST can be seen,<br> the ordered list are the ones with numbers
-            while the unordered are without numbers
-        </P>
-        <P>TABLES ARE ALSO MADE WITH HTML 
-            We are going to make a table here 
-        </P>
-        <table>
-            <tr>
-                <th>THE PLANETS</th>
-                <th>THE OCEANS</th>
-                <th>THE DESERTS</th>
-            </tr> 
-            <tr>
-            <td>The earth</td>
-            <td>Pacific</td>
-            <td>Sahara</td>
-            </tr>
-            <tr>
-            <td>Pluto</td>
-            <td>atlantic</td>
-            <td>Gobi</td>
-            </tr>
-            </p>
-        </table>
-          <p>Next we are going to be creating a web link, please click on the link 
-          <a href="http://www.google.com"> to search the web</a>
-          </p>
-          <ul>
-            <li><a href="#birds">Bird section </a></li>
-            <li><a href="#ducks">Ducks section</a></li>
-          </ul>
-          <br>
-        <a Name="Birds"> This is an article about birds. </a>
-          <br>
-          <a Name="ducks"> This is an article about ducks.</a>
-          <h2>BEDROOM AESTHETICS</h2>
-           <img src="images/Pictures/image.jpg.jpg"width=300 height="400"></img> 
-          <h2>BEDROOM AESTHETICS 2</h2>
-        <img src="images/Pictures/image.jpg.png"width=200 height="400"></img> 
-          <h2>GIRLY AESTHETICS</h2>
-          <img src="images/Pictures/image.jpg.g..jpg"width=400></img> 
-          <P> <strong> N.B. Just missing one letter can ruin your html,<br> and you won't get the result you desire in your web page</strong></P>
-          <p>on sizing and resizing images, <br> all you have to do is to add your desired or preferred width and height at the front of the image code to get what you want. </p>
-          <p>we are going to be talking about nested elements briefly,<br>nested elements are elements inside another elements,<br>the only element that is not inide another element is the HTML and that is called the root element. <br>the head and the body are nested elements, they are both inside the HTML. <br> we'll call the body the parent nested element and then call the p the child of the body element,<br> it's always good to put the starting and closing tag inside the parent element, <br>putting the closing tag outside the body element is a mismanage element and it will start to cause a lot of problem. <br>always keep the element nested inside the body to keep the parent and child relationship </p>
-          <form action="method">
-            <label for="firstname">First Name:</label>
-            <input type="text"id=firstname size=40> <br>
-            <label for="lastname">Last Name:</label>
-            <input type="text"id=lastname> <br>
-            <label for="Middlename">Middle Name:</label>
-            <input type="text"id=Middlename>
-          </form>
-          <p>that was a one (single) line text box,the form element acts as a container to put in whatever input feild we want,<br> if you want it a lot wider all you have to do is the add the desirable size you want,<br>
-            you can add a label to indicate what its for, so people will know the information they are entering, <br>with labels informations can be collected from user's which will be connected to our server where we will process the data. <br> we are going to be looking at a multi line text box next, <br> in the single line text box we used the input element tag <br> But in this multi-line text box we are going to use the text area element tag. <br> if you want to increase the size all you have to do is to add rows and cols and add the size.</p>
-            <form action="method"> comment: <br>
-                <textarea rows="10" cols="40"  name="Comments"id="Comments:"></textarea> <br>
-                <input type="button" value="submit">
-            </form>
-            <p>
-            if you want a submit button where the user can click, over here we get to use the input element tag again,<br> We going to add a radio buutton <br>in a radio button you get to choose one option. <br>in inputing the radio button we still have to use the input tag with the type as radio,  </p>
-            <form action="method">
-                yes:
-                <input type="radio" name="yesorno" id=""> <br>
-                No:
-                <input type="radio" name="yesorno" id="">
-            </form>
-            <p>
-            next we are going to be looking at the check box. <br> the input tag is also used in inputing the checkbox where you get to pick mutiple choice, <br> we use the input tag with the type as checkbox, <br> if you want one of the options to always be checked all you have to do is to use the checked attribute. <br> The user can always deselct this at anytime but whenever the page shows it as already been checked.
-            </p>
-            <form action="method">
-                <input type="checkbox" name=""checked="checked">Football<br>
-                <input type="checkbox" name="">Basketball <br>
-                <input type="checkbox" name="">Hockey <br>
-                <input type="checkbox" name="">Baseball
-            </form>
-            <p>
-            the difference between checkbox and radio is in checkbox you get to select more than one options  <br>but in radio you get to choose just one option. <br> Next we are going to go over the number input element,<br>once again we are going to be using the input element but this time with the type as number, here is an example, <br> in this web control box it only allow users to input numbers no characters or letters just numbers, <br> so what if you want a minimum and a maximum amount of number? <br> yeah thats where our minimum and maximun attribute come to use, <br> i'll give an example of that too </p>
-            <form action="method">
-                <input type="number"><br>
-                <input type="number" min="1" max="50"> <br>
-                <input type="button" value="submit">
-            </form>
-            <p>
-            next we are going to go over how to set up a drop down list in HTML, this is different from a checkbox we did a while ago,<br> a checkbox allow the user to select as many option as the want but a drop down-list allow the user to select one option, <br>it is the select element that we use to create the drop down list we use an opening tag and a closing tag <br> and we use the option element imbedded inside the select element, <br> here are examples</p>
-            <form action="method">
-                <select name="" id="">
-                    <option value="London">London</option>
-                    <option value="Manchester">Manchester</option>
-                    <option value="England">England</option>
-                </select>
-            </form> 
-           <p> Next we'll be seting up the date and time box, this highlights the date and enable the user input a date and the number of days they want, <br> a minimum and maximum amount of days can also be set </p>
-            <form action="method">
-                Enter a day you want to travel to America:
-                <input type="date" name="Day" id="Day"> <br>
-                Number of days: <input type="date" name="NumDays" id="NumDays" min="1" max="10">
-            </form>
-           <p> we are going to look at other things we can do with the Form element, <br> and one of it is the Feildbox and legend element, the field form add some nice styling to you form </p>
-            <form action="mathod">
-                <fieldset>
-              <legend>Enter a day you want to travel to America:</legend>
-             <input type="date" name="Day" id="Day"> <br>
-             Number of days: <input type="date" name="NumDays" id="NumDays" min="1" max="10"><br><br>
-               Name: <input type="text">
-                </fieldset>
-            </form>
-          <p class="pink">  we are going to take a break from coding and talk about HTML again,<br> so we'll be looking at attributes in HTML, as we know elements are made of of tags an openig tag and a closing tag, <br> and the elements tell the browser something about the information in-between two tags,<br> the paragraph element tells the browser there is a text there, and the heading element tells the browser there is a heading there, <br>the body will tell the browser everything is inside the body and the body will make up the actual web page, <br>what an attribute does is to give more information about a particular element,<br> attributes are always in the opening tags inside the angles brackets, attributes always have three items,<br> first is the attribute name then the equal sign and then the value,<br> <strong>some attribute only go with a particular element the "for" attribute is only available for the label element,<br> you wouldn't put that in a paragragh element, <br>in some attribute you can put in almost every element, <br> and other attributes are very specific to a specific type of element </strong> <br>next we are going to talk about escape characters, examples of escape characters include the space character, <br> the trademark character (TM), the copyright character,<br>
-            &nbsp; &#8482; that was the trademark character, &copy; the copyright character, &gt; the greater than character, &lt; the lesser than character, &quest; the question character. <br>Next we are going to discuss the <strong>bold element, the strong element,the strong and bold element looks same. <br> but with the strong element you can place emphasis on certain words and it is used also for text to speech programs, <br>the italic element and the EM element, the italic and the em element looks same. <br> but the em element also add emphasis to certain words and can be used on text to speech programs</strong> </p>
-          </p>
-          <p>This is a <b>bold element</b></p>
-          <p>This is a <strong>strong element</strong></p>
-          <p>this is an <i>italic element</i></p>
-          <p>This is an<em> EM element</em></p>
-          <p>next we are going to look at iframes in html, iframe is another html document that we could imbed into our existing web page, <br>and we can do that with the iframe element, it can be use to insert content from other pages, <br>
-            <iframe src="first" id="ouriframe" frameborder="1" width="200" height="200">
-            </iframe> <br>
-            <a href="second" target="ouriframe">switch to new document</a>  <br>
-           <p> Next we'll look at the sup and sub elements, the sup element stands for superscript and the sub element stands for subscript,<br> the sup element allows you to display text above the main body of the text, <br> while subscript allows you to display the text below the main text,</p>
-            <p>an example of superscript, <b>Destiny encounter is july 25<sup>th</sup></b></p>
-            <p>an example of subscript, <b>There's plenty of H<sub>2</sub>O in the lake</b></p>
-           <p> next we are going to deal with the title and alt attributes,  <br>the title attribute allow you get a title when you hover over an image, <br>i'll give an example of it. </p> <br>
-            <img src="images/Pictures/image.jpg.g.jpg" title="pink living room aesthetics"> <br>
-             <p>that was for the title attribute <br>
-              the alt attribute stands for alternate text for an image,<br> what it really allows is incase we can't display an image for a reason,<br> like if we have the wrong path or the image is no longer there you can display alternate text so that at least something is displayed,<br> i'll give an example of it too <br>
-              <img src="images/Pictures/image.jpg.g.jpg i" title="pink living room aesthetics" alt="image.jpg.g.jpg"> <br> thats a perfect example, when you hover the image the title is there and an alternate is there since the path is broken but it shows an image is there. <br></p>
-             <p>And next we are going to discuss the audio element tag, in adding an audio to your web page you have to use the audio element tag, <br> the audio control attribute and add your source <br></p>
-             <audio
-              controls
-             ><source src=" There's no shadow you won't light up.mp3 "></audio> <br>
-             <P>if you want the file to automatically play in the web for that we have to use the autoplay attribute, <br> and if you want it to loop you have to use the loop attribute so it will loop over and over,<br> lets try it <br> </P>
-             <audio controls ><source src="There's no shadow you won't light up.mp3"></audio> <br>
-             <p>and then we have the drag attribute, this allow you drag in the web browser and it can be use anywhere in the webpages, the draggable, <br> and then we have the video element, its what we use to add videos to our web pages, <br></p>
-              <video video controls
-              ><source src="so.mp4"></video> <br>
-             <p> we are going to talk about the DOCTYPE declaration we've been putting before our HTML code, <br>the DOCTYPE is the very first thing that we put in our HTML document, and it always come before the HTML tag,<br> it is important that the DOCTYPE is not an HTML tag it is an instruction to the web browser about what version of HTML the page needs to use. <br> <strong>AND THIS IS THE END OF BASIC HTML FOR BEGINNERS</strong> </p>
-              <br>
-             <h2> <blockquote>We are going to talk about css next</blockquote> </h2>
-             <P> What is CSS? <br> CSS means CASCADING STYLE SHEETS, it is a style sheet language use for describing the look and formating of a document written in a markup language, <br>It adds style to the HTML, it can completely change how the web page looks like without changing your HTML, <br> Imagine you build a fence the fence will be the HTML. but the fence is unpainted so in order to add color to it you need a paint. so paint would bethe CSS, <br>so CSS adds style to the HTML which is the fence or building block of our web page. the CSS goes into the stle element and it is place within the head element. <br> the style element is one way we can reference our CSS, you don't have to use the angle brackets in CSS
-               styles are called properties, in CSS the semi column is a break, the px stands for pixels, it is the unit for measuring the text that we use, to add colour to your header you use the colour background, and can also change your font size, you use the border bottom property/ attribute to add a line under your text,Next we are going to talk about CSS inheritance and overriding, the way inheritance works is theat if we go ahead and style against the body element all the child element (all element nested in the body) will inherit that more like a universal styling, being able to specify designs and styles for elements nested in the body is where overridingcomes to play, inheritance only works if you don't have an identical rule in the child element, classes are used to select individual elements for styling</P> 
-          </p>
-          <h1><blockquote>INTRODUCTION TO CSS</blockquote></h1>
-          <p>CSS stands for Cascading style sheets. It is used to style and layout web pages, for example to change the color of text, align items, create spacing,and make your web responsive on different devices.</p>
-          <h2>WHAT IS CSS?</h2>
-          <p>CSS is a language that describes how the HTML elements are to be displayed on screen, paper, or in other media.</p>
-          <ul>
-            <li>Why do we need CSS?</li>
-          </ul>
-          <p>Without CSS, every website would look like plain, unstyled text, like a word document. CSS allows you to:</p>
-          <ul>
-            <li>Change fonts and colors</li>
-            <li>Add spacing and borders</li>
-            <li>Position elements</li>
-            <li>Make responsive designs for mobile devices</li>
-            <li>Add animations and transitions</li>
-          </ul>
-          <h1>Basic CSS structures</h1>
-          <ul>
-            <li>CSS is written using rules called declarations.</li>
-            <li>Each rule targets an HTML eement (called a selector) and applies styles to it.</li>
-            <li>A property is what is being changed (like color or font size).</li>
-            <li>A value is the setting you apply to that property (like red or 16px).</li>
-          </ul>
-          <h1>Three ways to Use CSS</h1>
-          <p>There are three ways to use CSS and they are;</p>
-          <p class="black underline"><strong>
-           1. Inline CSS</strong></p>
-          <ul>
-            <li>Style is written directly inside an HTML tag.</li>
-            <li>It is used for quick, one-time changes.</li>
-            <li>Not recommended for large projects.</li>
-          </ul>
-           <p class="black underline"><strong>
-           2. Internal CSS</strong></p>
-          
-          <ul>
-            <li>style rules are written inside a style tag in the HTML head section</li>
-            <li>Useful for small websites or when you don't want to create a seperate file.</li>
-          </ul>
-           <p class="black underline"> <strong>
-            3. External CSS </strong></p>
-            <ul>
-              <li>Styles are written in seperate css file.</li>
-              <li>This file is linked to the HTML.</li>
-              <li>Best practice for large websites.</li>
-              <li>Keeps content (HTML) and designs (CSS) seperate.</li>
-            </ul>
-            <blockquote class="black underline"><strong>Common CSS properties</strong></blockquote>
-            <p>There are various css properties some are;</p>
-            <table>
-              <tr>
-              <th>PROPERTY</th> 
-              <th>DESCRIPTION</th>
-              </tr>
-              <tr>
-                <td>Color</td>
-                <td>Changes the color of text</td>
-              </tr>
-               <tr>
-                <td>background</td>
-                <td>Sets backgroun color or background image</td>
-              </tr>
-              <tr>
-                <td>Font-size</td>
-                <td>Sets the size of the text</td>
-              </tr>
-              <tr>
-                <td>Margin</td>
-                <td>Adds space outside an element</td>
-              </tr>
-              <tr>
-                <td>Padding </td>
-                <td>Adds space inside an element</td>
-              </tr>
-              <tr>
-                <td>border </td>
-                <td>Adds a border around an element</td>
-              </tr>
-              <tr>
-                <td>Width</td>
-                <td>Sets the width of an element</td>
-              </tr> 
-              <tr>
-                <td>Height</td>
-                <td>Sets the height of an element</td>
-              </tr> 
-              <tr>
-                <td>Text-align</td>
-                <td>Aligns text (left,right,center,justify)</td>
-              </tr>
-              <tr>
-                <td>Display </td>
-               <td>Controls layout behavior(inline,block,flex)</td>
-              </tr>
-            </table>
-            <blockquote class="black underline"> <strong>What Does "Cascading" Mean? </strong> </blockquote>
-            <p>CSS follows a hierarchy where some rules take priority over others. The order of importance (from highest to lowest) </p>
-            <ol>
-              <li>Inline styles</li>
-              <li>Internal styles (in the head section)</li>
-              <li>External styles (linked CSS file)</li>
-            </ol>
-            <p>More specific rules override general ones. The last rule written will override earlier ones if they conflict.</p>
-            <blockquote class="black underline">
-             <strong> BASICS OF CSS </strong>
-            </blockquote>
-            <p>classes can be applied to as many different element as possible, you just have to remove the individual elements in front of it, if you just put a dot and the class it will apply to the element, you can asls apply multiple classes to an element, we do that by adding a class name right pass our existing class name, the font font-family property allows us to control display on the browser,the font-weight properties allows you to control the thickness of your font, so far we have been looking at internal style sheet next we'll look at external style sheet  </p>
-            
+    body {
+      color: green;
+      font-weight: normal;
+      font-family: Verdana, Arial, Geneva, Tahoma, sans-serif;
+      background-color: rgb(214, 223, 223);
+      line-height: 1.5em;
+      padding: 15px;
+    }
 
-            
-    </body>
-    </html>
+    h1,
+    h2 {
+      border-bottom: 1px solid black;
+      background-color: rgb(161, 219, 161);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 150%;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+    h3 {
+      border-bottom: 1px solid black;
+      background-color: rgb(161, 219, 161);
+    }
+
+    .black {
+      color: black;
+      font-size: 29px;
+      font-family: Verdana;
+      text-decoration: underline;
+    }
+
+    p {
+      color: green;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-bottom: 15px;
+    }
+
+    .italic {
+      color: black;
+      font-size: 17px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: italic;
+    }
+
+    #para1 {
+      color: green;
+      font-size: 15px;
+      line-height: 2.5em;
+      background-color: rgb(214, 223, 223);
+      padding: 5px;
+      /* border: 2px solid black; */
+      margin-bottom: 20px;
+    }
+
+    .para2 {
+      color: blue;
+      font-size: 15px;
+      line-height: 2.5em;
+      background-color: #c0b4ec;
+      padding: 5%;
+      border: 2px solid black;
+      margin: 50px 10px;
+      background-image: url(source.gif);
+    }
+
+    .forms,
+    .forms2 {
+      color: blue;
+      font-size: 15px;
+      line-height: 2.5em;
+      padding: 20px;
+      width: 100%;
+      box-sizing: border-box;
+    }
+
+    .forms {
+      background-color: #c3b4ec;
+      border: 2px solid blue;
+      margin: 50px 10px;
+    }
+
+    .forms2 {
+      background-color: #ebe9f0;
+      border: 2px solid black;
+      margin: 50px 10%;
+    }
+
+    .img {
+      display: block;
+      margin: 20px auto;
+      padding: 10px;
+      background-color: silver;
+      border: 2px solid black;
+      height: auto;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
+
+    /* MEDIA QUERY FOR MOBILE SCREENS */
+    @media (max-width: 768px) {
+      .para2,
+      .forms,
+      .forms2 {
+        margin: 20px 10px;
+        padding: 10px;
+      }
+
+      .forms2 {
+        margin: 20px 10px;
+      }
+    }
+    .video-wrapper {
+      width: 100%;
+      max-width: 100%;
+      overflow: hidden;
+      margin: 20px auto;
+    }
+    .video-wrapper video {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 2px solid black;
+      box-sizing: border-box;
+    }
+    ul,
+    ol {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+    ul {
+      list-style-type: disc;
+    }
+    ol {
+      list-style-type: decimal;
+    }
+    .highlights {
+      background-color: #ff0;
+    }
+    a :link {
+      color: blue;
+    }
+    a :visited {
+      color: #c0b4ec;
+    }
+    a :hover {
+      color: orange;
+    }
+  </style>
+  <body
+    style="
+      color: green;
+      font-weight: normal;
+      font-family: Verdana, Arial, Geneva, Tahoma, sans-serif;
+      background-color: rgb(214, 223, 223);
+      line-height: 1.5em;
+      padding: 15px;
+    "
+  >
+    <h1
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        font-size: 150%;
+        margin-bottom: 10px;
+      "
+    >
+      This is my first website
+    </h1>
+    <h1
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        font-size: 150%;
+        margin-bottom: 10px;
+      "
+    >
+      THE BASICS OF HTML- A SIMPLE GUIDE
+    </h1>
+    <p>
+      Welcome to my first website. Everything you want to know about the basics
+      of HTML is in this website.
+    </p>
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+        font-size: 1.2em;
+        margin-top: 20px;
+      "
+    >
+      INTRODUCTION TO HTML
+    </h2>
+    <p>I'll do a brief introduction to HTML, (Hypertext Markup Language),</p>
+    <p>
+      HTML stands for Hypertext Markup Language. <br />
+      It is the standard language used to create and structure content on the
+      web.
+      <br />
+      Everything you see on the web pages (text, images, links, forms) is
+      written using HTML. HTML document contains contents, web browsers read and
+      display . With HTML, we can add everything displayed on a web site. <br />
+      HTML is practically the skeleton of a website, we can also call it the
+      building blocks of a web pages, <br />
+      HTML is the foundation of every webpages. Without HTML, web pages wouldn't
+      exist, even when using modern tools and platforms. <br />HTML is always
+      working in the background. HTML is not a programming language but a
+      <strong>Markup Language </strong>.
+    </p>
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 20px;
+      "
+    >
+      KEY FEATURES OF HTML
+    </h2>
+    <ul>
+      <li>
+        <strong> Structure:</strong> HTML organizes content into headings,
+        paragraphs, lists, and sections.
+      </li>
+      <li>
+        <strong>Links:</strong> It connects paages together using hyperlinks.
+      </li>
+      <li>
+        <strong>Media:</strong> It allows you to add image, videos, and audio to
+        web pages.
+      </li>
+      <li>
+        <strong> Forms:</strong> It helps create input fields, buttons, and
+        interactive features.
+      </li>
+      <li>
+        <strong>Simple and Universal:</strong> Every browser understands HTML.
+      </li>
+    </ul>
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 20px;
+      "
+    >
+      UNDERSTANDING THE NAME
+    </h2>
+    <ul>
+      <li>
+        <strong>Hypertext: </strong>Refers to text that links to other text or
+        web pages.
+      </li>
+      <li>
+        <strong> Markup:</strong> Means that HTML uses tags to "mark up" or
+        define the different parts of a document.
+      </li>
+      <li>
+        <strong>Language:</strong> It's a standardized set of rules that
+        browsers understand.
+      </li>
+    </ul>
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 20px;
+      "
+    >
+      WHAT HTML IS NOT
+    </h2>
+    <ul>
+      <li>
+        HTML is not a programming language. It doesn't have logic like "if" or
+        "loop".
+      </li>
+      <li>It doesn't make things pretty on its own, that's what CSS is for.</li>
+      <li>
+        It doesn't make things interactive, that's what javascript is for.
+      </li>
+    </ul>
+    <ul>
+      <h2
+        style="
+          border-bottom: 1px solid black;
+          background-color: rgb(161, 219, 161);
+          text-align: center;
+          font-size: 1.2em;
+          margin-top: 20px;
+        "
+      >
+        WHAT CAN YOU DO WITH HTML?
+      </h2>
+      <li>Structure content on a web page</li>
+      <li>Organize text into headings, paragraphs, and lists</li>
+      <li>Build simple websites or webpages</li>
+      <li>Create your digital resume or portfolio</li>
+      <li>Write structured online articles or tutorials</li>
+      <li>Lay the foundation before styling or adding interactions</li>
+    </ul>
+
+    <p id="para1">
+      Basic tags in HTML include the (h) for a new heading, the (p) for a new
+      paragraph,<br />
+      the (Br) to add a line break, the(AND SIGN+nbsp;) to give a space, &nbsp;
+      &nbsp; &nbsp; test,<br />
+      There are two types of list in HTML,the ordered and unordered list,<br />
+      The unordered list is added with UL IN THE ANGLE BRACKET. <br />
+      while the ordered list is added with OL IN THE ANGLE BRACKET. <br />
+      The item listed is added with LI IN THE ANGLE BRACKET. <br />
+      I'll give some examples of ordered items and unordered items, so lets
+      start with unordered items
+    </p>
+    <!--This is the start of html code for the second section, and we'll start each section with a header tag -->
+    <ul>
+      <li>DVD</li>
+      <li>CD</li>
+      <li>Blu Ray</li>
+    </ul>
+    <ol>
+      <li>DVD</li>
+      <li>CD</li>
+      <li>Blu RAY</li>
+    </ol>
+    <p id="para1">
+      The difference between the UNORDERED LIST AND THE ORDERED LIST can be
+      seen,<br />
+      the ordered list are the ones with numbers while the unordered are without
+      numbers
+    </p>
+    <p>TABLES ARE ALSO MADE WITH HTML We are going to make a table here</p>
+    <table>
+      <tr>
+        <th>THE PLANETS</th>
+        <th>THE OCEANS</th>
+        <th>THE DESERTS</th>
+      </tr>
+      <tr>
+        <td>The earth</td>
+        <td>Pacific</td>
+        <td>Sahara</td>
+      </tr>
+      <tr>
+        <td>Pluto</td>
+        <td>atlantic</td>
+        <td>Gobi</td>
+      </tr>
+    </table>
+    <p>
+      Next we are going to be creating a web link, please click on the link
+      <a href="http://www.google.com"> to search the web</a>
+    </p>
+    <ul>
+      <li><a href="#birds">Bird section </a></li>
+      <li><a href="#ducks">Ducks section</a></li>
+    </ul>
+    <br />
+    <a name="Birds"> This is an article about birds. </a>
+    <br />
+    <a name="ducks"> This is an article about ducks.</a>
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 20px;
+      "
+    >
+      BEDROOM AESTHETICS
+    </h2>
+    <img
+      src="images/Pictures/image.jpg.jpg"
+      width="auto"
+      height="auto"
+      class="img"
+    />
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 20px;
+      "
+    >
+      BEDROOM AESTHETICS 2
+    </h2>
+    <img
+      src="images/Pictures/image.jpg.png"
+      width="auto"
+      height="auto"
+      class="img"
+    />
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 20px;
+      "
+    >
+      GIRLY AESTHETICS
+    </h2>
+    <img
+      src="images/Pictures/image.jpg.g..jpg"
+      width="aauto"
+      height="auto"
+      class="img"
+    />
+    <p>
+      <strong>
+        N.B. Just missing one letter can ruin your html,<br />
+        and you won't get the result you desire in your web page</strong
+      >
+    </p>
+    <p>
+      on sizing and resizing images, <br />
+      all you have to do is to add your desired or preferred width and height at
+      the front of the image code to get what you want.
+    </p>
+    <p>
+      we are going to be talking about nested elements briefly,<br />nested
+      elements are elements inside another elements,<br />the only element that
+      is not inide another element is the HTML and that is called the root
+      element. <br />the head and the body are nested elements, they are both
+      inside the HTML. <br />
+      we'll call the body the parent nested element and then call the p the
+      child of the body element,<br />
+      it's always good to put the starting and closing tag inside the parent
+      element, <br />putting the closing tag outside the body element is a
+      mismanage element and it will start to cause a lot of problem.
+      <br />always keep the element nested inside the body to keep the parent
+      and child relationship
+    </p>
+    <form action="method" class="forms">
+      <label for="firstname">First Name:</label>
+      <input type="text" id="firstname" /> <br />
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" /> <br />
+      <label for="Middlename">Middle Name:</label>
+      <input type="text" id="Middlename" />
+    </form>
+    <p>
+      that was a one (single) line text box,the form element acts as a container
+      to put in whatever input feild we want,<br />
+      if you want it a lot wider all you have to do is the add the desirable
+      size you want,<br />
+      you can add a label to indicate what its for, so people will know the
+      information they are entering, <br />with labels informations can be
+      collected from user's which will be connected to our server where we will
+      process the data. <br />
+      we are going to be looking at a multi line text box next, <br />
+      in the single line text box we used the input element tag <br />
+      But in this multi-line text box we are going to use the text area element
+      tag. <br />
+      if you want to increase the size all you have to do is to add rows and
+      cols and add the size.
+    </p>
+    <form action="method" class="forms">
+      comment: <br />
+      <textarea rows="10" cols="40" name="Comments" id="Comments:"></textarea>
+      <br />
+      <input type="button" value="submit" />
+    </form>
+    <p>
+      if you want a submit button where the user can click, over here we get to
+      use the input element tag again,<br />
+      We going to add a radio buutton <br />in a radio button you get to choose
+      one option. <br />in inputing the radio button we still have to use the
+      input tag with the type as radio,
+    </p>
+    <form action="method" class="forms">
+      yes:
+      <input type="radio" name="yesorno" id="" /> <br />
+      No:
+      <input type="radio" name="yesorno" id="" />
+    </form>
+    <p>
+      next we are going to be looking at the check box. <br />
+      the input tag is also used in inputing the checkbox where you get to pick
+      mutiple choice, <br />
+      we use the input tag with the type as checkbox, <br />
+      if you want one of the options to always be checked all you have to do is
+      to use the checked attribute. <br />
+      The user can always deselct this at anytime but whenever the page shows it
+      as already been checked.
+    </p>
+    <form action="method" class="forms">
+      <input type="checkbox" name="" checked="checked" />Football<br />
+      <input type="checkbox" name="" />Basketball <br />
+      <input type="checkbox" name="" />Hockey <br />
+      <input type="checkbox" name="" />Baseball
+    </form>
+    <p>
+      the difference between checkbox and radio is in checkbox you get to select
+      more than one options <br />but in radio you get to choose just one
+      option.
+      <br />
+      Next we are going to go over the number input element,<br />once again we
+      are going to be using the input element but this time with the type as
+      number, here is an example, <br />
+      in this web control box it only allow users to input numbers no characters
+      or letters just numbers, <br />
+      so what if you want a minimum and a maximum amount of number? <br />
+      yeah thats where our minimum and maximun attribute come to use, <br />
+      i'll give an example of that too
+    </p>
+    <form action="method" class="forms">
+      <input type="number" /><br />
+      <input type="number" min="1" max="50" /> <br />
+      <input type="button" value="submit" />
+    </form>
+    <p>
+      next we are going to go over how to set up a drop down list in HTML, this
+      is different from a checkbox we did a while ago,<br />
+      a checkbox allow the user to select as many option as the want but a drop
+      down-list allow the user to select one option, <br />it is the select
+      element that we use to create the drop down list we use an opening tag and
+      a closing tag <br />
+      and we use the option element imbedded inside the select element,
+      <br />
+      here are examples
+    </p>
+    <form action="method" class="forms">
+      <select name="" id="">
+        <option value="London">London</option>
+        <option value="Manchester">Manchester</option>
+        <option value="England">England</option>
+      </select>
+    </form>
+    <p>
+      Next we'll be seting up the date and time box, this highlights the date
+      and enable the user input a date and the number of days they want, <br />
+      a minimum and maximum amount of days can also be set
+    </p>
+    <form action="method" class="forms">
+      Enter a day you want to travel to America:
+      <input type="date" name="Day" id="Day" /> <br />
+      Number of days:
+      <input type="date" name="NumDays" id="NumDays" min="1" max="10" />
+    </form>
+    <p>
+      we are going to look at other things we can do with the Form element,
+      <br />
+      and one of it is the Feildbox and legend element, the field form add some
+      nice styling to you form
+    </p>
+    <form action="mathod" class="forms">
+      <fieldset>
+        <legend>Enter a day you want to travel to America:</legend>
+        <input type="date" name="Day" id="Day" /> <br />
+        Number of days:
+        <input
+          type="date"
+          name="NumDays"
+          id="NumDays"
+          min="1"
+          max="10"
+        /><br /><br />
+        Name: <input type="text" />
+      </fieldset>
+    </form>
+    <p id="para1">
+      we are going to take a break from coding and talk about HTML again,<br />
+      so we'll be looking at attributes in HTML, as we know elements are made of
+      of tags an openig tag and a closing tag, <br />
+      and the elements tell the browser something about the information
+      in-between two tags,<br />
+      the paragraph element tells the browser there is a text there, and the
+      heading element tells the browser there is a heading there, <br />the body
+      will tell the browser everything is inside the body and the body will make
+      up the actual web page, <br />what an attribute does is to give more
+      information about a particular element,<br />
+      attributes are always in the opening tags inside the angles brackets,
+      attributes always have three items,<br />
+      first is the attribute name then the equal sign and then the value,<br />
+      <strong
+        >some attribute only go with a particular element the "for" attribute is
+        only available for the label element,<br />
+        you wouldn't put that in a paragragh element, <br />in some attribute
+        you can put in almost every element, <br />
+        and other attributes are very specific to a specific type of element
+      </strong>
+      <br />next we are going to talk about escape characters, examples of
+      escape characters include the space character, <br />
+      the trademark character (TM), the copyright character,<br />
+      &nbsp; &#8482; that was the trademark character, &copy; the copyright
+      character, &gt; the greater than character, &lt; the lesser than
+      character, &quest; the question character. <br />Next we are going to
+      discuss the
+      <strong
+        >bold element, the strong element,the strong and bold element looks
+        same.
+        <br />
+        but with the strong element you can place emphasis on certain words and
+        it is used also for text to speech programs, <br />the italic element
+        and the EM element, the italic and the em element looks same. <br />
+        but the em element also add emphasis to certain words and can be used on
+        text to speech programs</strong
+      >
+    </p>
+
+    <p>This is a <b>bold element</b></p>
+    <p>This is a <strong>strong element</strong></p>
+    <p>this is an <i>italic element</i></p>
+    <p>This is an<em> EM element</em></p>
+    <p>
+      next we are going to look at iframes in html, iframe is another html
+      document that we could imbed into our existing web page, <br />and we can
+      do that with the iframe element, it can be use to insert content from
+      other pages, <br />
+      <iframe
+        src="first"
+        id="ouriframe"
+        frameborder="1"
+        width="200"
+        height="200"
+      >
+      </iframe>
+      <a href="second" target="ouriframe">switch to new document</a> <br />
+    </p>
+
+    <p>
+      Next we'll look at the sup and sub elements, the sup element stands for
+      superscript andF the sub element stands for subscript,<br />
+      the sup element allows you to display text above the main body of the
+      text,
+      <br />
+      while subscript allows you to display the text below the main text,
+    </p>
+    <p>
+      an example of superscript,
+      <b>Destiny encounter is july 25<sup>th</sup></b>
+    </p>
+    <p>
+      an example of subscript,
+      <b>There's plenty of H<sub>2</sub>O in the lake</b>
+    </p>
+    <p>
+      next we are going to deal with the title and alt attributes, <br />the
+      title attribute allow you get a title when you hover over an image,
+      <br />i'll give an example of it.
+    </p>
+    <br />
+    <img
+      src="images/Pictures/image.jpg.g.jpg"
+      title="pink living room aesthetics"
+      class="img"
+    />
+    <br />
+    <p>
+      that was for the title attribute <br />
+      the alt attribute stands for alternate text for an image,<br />
+      what it really allows is incase we can't display an image for a reason,<br />
+      like if we have the wrong path or the image is no longer there you can
+      display alternate text so that at least something is displayed,<br />
+      i'll give an example of it too <br />
+      <img
+        src="images/Pictures/image.jpg.g.jpg i"
+        title="pink living room aesthetics"
+        alt="image.jpg.g.jpg"
+      />
+      <br />
+      thats a perfect example, when you hover the image the title is there and
+      an alternate is there since the path is broken but it shows an image is
+      there.
+      <br />
+    </p>
+    <p>
+      And next we are going to discuss the audio element tag, in adding an audio
+      to your web page you have to use the audio element tag, <br />
+      the audio control attribute and add your source <br />
+    </p>
+    <audio controls>
+      <source src=" There's no shadow you won't light up.mp3 " />
+    </audio>
+    <br />
+    <p>
+      if you want the file to automatically play in the web for that we have to
+      use the autoplay attribute, <br />
+      and if you want it to loop you have to use the loop attribute so it will
+      loop over and over,<br />
+      lets try it <br />
+    </p>
+    <audio controls>
+      <source src="There's no shadow you won't light up.mp3" />
+    </audio>
+    <br />
+    <p>
+      and then we have the drag attribute, this allow you drag in the web
+      browser and it can be use anywhere in the webpages, the draggable,
+      <br />
+      and then we have the video element, its what we use to add videos to our
+      web pages, <br />
+    </p>
+    <div class="video-wrapper">
+      <video video controls><source src="so.mp4" /></video>
+    </div>
+    <br />
+    <p>
+      we are going to talk about the DOCTYPE declaration we've been putting
+      before our HTML code, <br />the DOCTYPE is the very first thing that we
+      put in our HTML document, and it always come before the HTML tag,<br />
+      it is important that the DOCTYPE is not an HTML tag it is an instruction
+      to the web browser about what version of HTML the page needs to use.
+      <br />
+      <strong>AND THIS IS THE END OF BASIC HTML FOR BEGINNERS</strong>
+    </p>
+    <br />
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+      "
+    >
+      We are going to talk about css next
+    </h2>
+    <p>
+      What is CSS? <br />
+      CSS means CASCADING STYLE SHEETS, it is a style sheet language use for
+      describing the look and formating of a document written in a markup
+      language, <br />It adds style to the HTML, it can completely change how
+      the web page looks like without changing your HTML, <br />
+      Imagine you build a fence the fence will be the HTML. but the fence is
+      unpainted so in order to add color to it you need a paint. so paint would
+      bethe CSS, <br />so CSS adds style to the HTML which is the fence or
+      building block of our web page. the CSS goes into the stle element and it
+      is place within the head element. <br />
+      the style element is one way we can reference our CSS, you don't have to
+      use the angle brackets in CSS styles are called properties, in CSS the
+      semi column is a break, the px stands for pixels, it is the unit for
+      measuring the text that we use, to add colour to your header you use the
+      colour background, and can also change your font size, you use the border
+      bottom property/ attribute to add a line under your text,Next we are going
+      to talk about CSS inheritance and overriding, the way inheritance works is
+      theat if we go ahead and style against the body element all the child
+      element (all element nested in the body) will inherit that more like a
+      universal styling, being able to specify designs and styles for elements
+      nested in the body is where overridingcomes to play, inheritance only
+      works if you don't have an identical rule in the child element, classes
+      are used to select individual elements for styling
+    </p>
+    <h1
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+        font-size: 150%;
+        margin-bottom: 10px;
+      "
+    >
+      INTRODUCTION TO CSS
+    </h1>
+    <p>
+      CSS stands for Cascading style sheets. It is used to style and layout web
+      pages, for example to change the color of text, align items, create
+      spacing,and make your web responsive on different devices.
+    </p>
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+      "
+    >
+      WHAT IS CSS?
+    </h2>
+    <p>
+      CSS is a language that describes how the HTML elements are to be displayed
+      on screen, paper, or in other media.
+    </p>
+    <ul>
+      <li>Why do we need CSS?</li>
+    </ul>
+    <p>
+      Without CSS, every website would look like plain, unstyled text, like a
+      word document. CSS allows you to:
+    </p>
+    <ul>
+      <li>Change fonts and colors</li>
+      <li>Add spacing and borders</li>
+      <li>Position elements</li>
+      <li>Make responsive designs for mobile devices</li>
+      <li>Add animations and transitions</li>
+    </ul>
+    <h1
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+        font-size: 150%;
+        margin-bottom: 10px;
+      "
+    >
+      Basic CSS structures
+    </h1>
+    <ul>
+      <li>CSS is written using rules called declarations.</li>
+      <li>
+        Each rule targets an HTML eement (called a selector) and applies styles
+        to it.
+      </li>
+      <li>A property is what is being changed (like color or font size).</li>
+      <li>
+        A value is the setting you apply to that property (like red or 16px).
+      </li>
+    </ul>
+    <h1
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+        font-size: 150%;
+        margin-bottom: 10px;
+      "
+    >
+      Three ways to Use CSS
+    </h1>
+    <p>There are three ways to use CSS and they are;</p>
+    <p><strong> 1. Inline CSS</strong></p>
+    <ul>
+      <li>Style is written directly inside an HTML tag.</li>
+      <li>It is used for quick, one-time changes.</li>
+      <li>Not recommended for large projects.</li>
+    </ul>
+    <p><strong> 2. Internal CSS</strong></p>
+
+    <ul>
+      <li>
+        style rules are written inside a style tag in the HTML head section
+      </li>
+      <li>
+        Useful for small websites or when you don't want to create a seperate
+        file.
+      </li>
+    </ul>
+    <p><strong> 3. External CSS </strong></p>
+    <ul>
+      <li>Styles are written in seperate css file.</li>
+      <li>This file is linked to the HTML.</li>
+      <li>Best practice for large websites.</li>
+      <li>Keeps content (HTML) and designs (CSS) seperate.</li>
+    </ul>
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+      "
+    >
+      Common CSS properties
+    </h2>
+    <p>There are various css properties some are;</p>
+    <table>
+      <tr>
+        <th>PROPERTY</th>
+        <th>DESCRIPTION</th>
+      </tr>
+      <tr>
+        <td>Color</td>
+        <td>Changes the color of text</td>
+      </tr>
+      <tr>
+        <td>background</td>
+        <td>Sets backgroun color or background image</td>
+      </tr>
+      <tr>
+        <td>Font-size</td>
+        <td>Sets the size of the text</td>
+      </tr>
+      <tr>
+        <td>Margin</td>
+        <td>Adds space outside an element</td>
+      </tr>
+      <tr>
+        <td>Padding</td>
+        <td>Adds space inside an element</td>
+      </tr>
+      <tr>
+        <td>border</td>
+        <td>Adds a border around an element</td>
+      </tr>
+      <tr>
+        <td>Width</td>
+        <td>Sets the width of an element</td>
+      </tr>
+      <tr>
+        <td>Height</td>
+        <td>Sets the height of an element</td>
+      </tr>
+      <tr>
+        <td>Text-align</td>
+        <td>Aligns text (left,right,center,justify)</td>
+      </tr>
+      <tr>
+        <td>Display</td>
+        <td>Controls layout behavior(inline,block,flex)</td>
+      </tr>
+    </table>
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+      "
+    >
+      <strong>What Does "Cascading" Mean? </strong>
+    </h2>
+    <p class="para2">
+      CSS follows a hierarchy where some rules take priority over others. The
+      order of importance (from highest to lowest)
+    </p>
+    <ol>
+      <li>Inline styles</li>
+      <li>Internal styles (in the head section)</li>
+      <li>External styles (linked CSS file)</li>
+    </ol>
+    <p>
+      More specific rules override general ones. The last rule written will
+      override earlier ones if they conflict.
+    </p>
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+      "
+    >
+      BASICS OF CSS
+    </h2>
+    <p class="para2">
+      classes can be applied to as many different element as possible, you just
+      have to remove the individual elements in front of it, if you just put a
+      dot and the class it will apply to the element, you can asls apply
+      multiple classes to an element, we do that by adding a class name right
+      pass our existing class name, the font font-family property allows us to
+      control display on the browser,the font-weight properties allows you to
+      control the thickness of your font, so far we have been looking at
+      internal style sheet next we'll look at external style sheet. You specify
+      an id in css by using the hash symbol, the id attributeis for a specific
+      set of css code you want to apply for a specific element.
+    </p>
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+      "
+    >
+      The ID Attribute In CSS
+    </h2>
+    &nbsp;
+
+    <blockquote class="black underline">
+      <strong>What Is An ID?</strong>
+    </blockquote>
+    &nbsp;
+    <ul>
+      <li>An ID is a unique identifier assigned to an HTML element.</li>
+      <li>It helps to identify one specific element on a webpage.</li>
+      <li>
+        An ID must be unique within a page no two elements should have the same
+        ID.
+      </li>
+    </ul>
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+      "
+    >
+      Purpose of the ID attribute
+    </h2>
+    <ul>
+      <li>Used to apply styles to a specific element.</li>
+      <li>Used to target an element for javascript or link anchors.</li>
+      <li>
+        Helps with navigation and scripting by providing a unique reference.
+      </li>
+    </ul>
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+      "
+    >
+      How CSS uses IDs
+    </h2>
+    &nbsp;
+    <ul>
+      <li>
+        In CSS, you use the ID selector to target an element with a specific ID.
+      </li>
+      <li>
+        The ID selector is marked by a hash symbol (#) followed by th ID name.
+      </li>
+      <li>
+        Because IDs are unique, styles applied to an ID only affect that one
+        element.
+      </li>
+    </ul>
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+      "
+    >
+      Example Uses Of IDs
+    </h2>
+    &nbsp;
+    <ul>
+      <li>Styling a single button differently from others.</li>
+      <li>Highlighting a specific section or heading.</li>
+      <li>Linkink directly to a part of the page via an anchor link.</li>
+      <li>Using javascript to manupulate that element specifically.</li>
+    </ul>
+    &nbsp;
+    <h2
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+      "
+    >
+      Important Points About IDs
+    </h2>
+    &nbsp;
+    <ul>
+      <li>Each ID value should be unique on a webpage, use IDs carefully.</li>
+      <li>
+        IDs have higher specificity than class selectors, so they override class
+        styles when both apply.
+      </li>
+      <li>
+        If you want to style multiple elements the same way, use classes instead
+        of IDs
+      </li>
+    </ul>
+    <p>
+      The div element stands for division. It is a block-level container used to
+      group HTML elements, it has no default styling used for structure, it is
+      often styled with CSS classes or IDs, commonly used for page sections,
+      layouts, and grouping content. The span element is an inline element used
+      to group inline elements and apply styles without breaking the flow of
+      text.
+    </p>
+    <h3
+      style="
+        border-bottom: 1px solid black;
+        background-color: rgb(161, 219, 161);
+        text-align: center;
+        text-decoration: black underline;
+      "
+    >
+      More interesting links
+    </h3>
+    <a href="index.html">CSS for beginners (external css)</a>
+    <br />
+    <a href="contact.html">CSS for beginners (inline CSS)</a>
+    <p>
+      I added this links using the anchor tag. add content page and reusing css
+      classes. adding special effects. psuedoclass
+    </p>
+  </body>
+</html>
