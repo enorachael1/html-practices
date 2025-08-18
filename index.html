@@ -18,8 +18,7 @@
         background-color: rgb(214, 223, 223);
         line-height: 1.5em;
         padding: 15px;
-        background-image: url(images/images\ \(6\).jpeg);
-        }
+      }
 
       h1,
       h2 {
@@ -168,6 +167,21 @@
       }
       a :hover {
         color: orange;
+      }
+      #main {
+        background-color: rgb(141, 196, 141);
+        border-radius: 5px;
+        padding: 10px;
+        margin: 20px;
+      }
+      .image {
+        display: block;
+        margin: 20px auto;
+        padding: 10px;
+        height: auto;
+        max-width: 100%;
+        box-sizing: border-box;
+        float: left;
       }
     </style>
   </head>
@@ -399,7 +413,8 @@
       yes:
       <input type="radio" name="yesorno" id="" /> <br />
       No:
-      <input type="radio" name="yesorno" id="" />
+      <input type="radio" name="yesorno" id="" /> <br />
+      <input type="button" value="submit" />
     </form>
     <p>
       next we are going to be looking at the check box. <br />
@@ -415,7 +430,8 @@
       <input type="checkbox" name="" checked="checked" />Football<br />
       <input type="checkbox" name="" />Basketball <br />
       <input type="checkbox" name="" />Hockey <br />
-      <input type="checkbox" name="" />Baseball
+      <input type="checkbox" name="" />Baseball <br />
+      <input type="button" value="submit " />
     </form>
     <p>
       the difference between checkbox and radio is in checkbox you get to select
@@ -450,6 +466,8 @@
         <option value="London">London</option>
         <option value="Manchester">Manchester</option>
         <option value="England">England</option>
+        <br />
+        <input type="button" value="submit" />
       </select>
     </form>
     <p>
@@ -461,7 +479,8 @@
       Enter a day you want to travel to America:
       <input type="date" name="Day" id="Day" /> <br />
       Number of days:
-      <input type="date" name="NumDays" id="NumDays" min="1" max="10" />
+      <input type="date" name="NumDays" id="NumDays" min="1" max="10" /><br />
+      <input type="button" value="submit" />
     </form>
     <p>
       we are going to look at other things we can do with the Form element,
@@ -481,7 +500,7 @@
           min="1"
           max="10"
         /><br /><br />
-        Name: <input type="text" />
+        Name: <input type="text" /> <br /><input type="button" value="submit" />
       </fieldset>
     </form>
     <p id="parapink">
@@ -552,7 +571,7 @@
     </p>
     <p>
       an example of superscript,
-      <b>Destiny encounter is july 25<sup>th</sup></b>
+      <b>Destiny encounter was july 25<sup>th</sup></b>
     </p>
     <p>
       an example of subscript,
@@ -922,7 +941,7 @@
       <strong>Example:</strong> <br />
 
       <img
-        src="images/FB_IMG_1754930393663.jpg"
+        src="images/b.a.jpg"
         style="position: right; top: 0; width: 150px"
         &lt;=" This text will wrap around the floated image."
         title="A floating image"
@@ -944,7 +963,21 @@
       clickable items like buttons or links. cursor property values include
       <strong>:</strong> default, pointer, text, move, inherit, crosshair,
       not-allowed, Auto, URL, Help, hand, progress , wait, grab and more. custom
-      cursor
+      cursor.
     </p>
+    <div id="main">
+      <p>
+        <img class="image" src="images/liv.room.jpg" />
+
+        A PINK STYLISH LIVIVING ROOM: Step into elegance with this chic
+        pink-inspired living room, where comfort meets modern sophistication.
+        Soft blush walls set a calming backdrop. Plush velvet sofas invite
+        relaxation, accented by gold and marble decor for a touch of luxury.
+        Layered textures—pillows, throws, and a cozy rug—create warmth and
+        depth. Natural light streams through sheer curtains, highlighting
+        statement art and fresh florals. This space blends comfort and style,
+        making it perfect for both entertaining and unwinding.
+      </p>
+    </div>
   </body>
 </html>
