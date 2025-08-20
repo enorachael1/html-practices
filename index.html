@@ -169,20 +169,35 @@
         color: orange;
       }
       #main {
-        background-color: rgb(141, 196, 141);
-        border-radius: 5px;
-        padding: 10px;
-        margin: 20px;
+        font-size: 15px;
+        line-height: 2.2em;
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px;
       }
       .image {
         display: block;
-        margin: 20px auto;
-        padding: 10px;
-        height: auto;
-        max-width: 100%;
-        box-sizing: border-box;
         float: left;
+        margin-right: 20px;
+        max-width: 150px;
+        height: auto;
       }
+      .vm {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        background-color: gray;
+        color: white;
+        display: block;
+        width: 80px;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 2px;
+        height: auto;
+        text-align: center;
+        border: 1px solid red;
+        line-height: 25px;
+      }
+      .a:hover{background-color: #d3d3d3;
+      color: black;}
     </style>
   </head>
 
@@ -195,20 +210,17 @@
       of HTML is in this website.
     </p>
     <h2>INTRODUCTION TO HTML</h2>
-    <p>I'll do a brief introduction to HTML, (Hypertext Markup Language),</p>
     <p>
-      HTML stands for Hypertext Markup Language. <br />
-      It is the standard language used to create and structure content on the
-      web. <br />
-      Everything you see on the web pages (text, images, links, forms) is
-      written using HTML. HTML document contains contents, web browsers read and
-      display . With HTML, we can add everything displayed on a web site. <br />
-      HTML is practically the skeleton of a website, we can also call it the
-      building blocks of a web pages, <br />
-      HTML is the foundation of every webpages. Without HTML, web pages wouldn't
-      exist, even when using modern tools and platforms. <br />HTML is always
-      working in the background. HTML is not a programming language but a
-      <strong>Markup Language </strong>.
+      I'll do a brief introduction to HTML (Hypertext Markup Language). HTML
+      stands for Hypertext Markup Language. It is the standard language used to
+      create and structure content on the web. Everything you see on web
+      pages—text, images, links, forms—is written using HTML. An HTML document
+      contains content that web browsers read and display. With HTML, we can add
+      everything displayed on a website. HTML is the skeleton of a website—the
+      building blocks of web pages. HTML is the foundation of every webpage.
+      Without HTML, web pages wouldn't exist, even when using modern tools and
+      platforms. HTML is always working in the background. HTML is not a
+      programming language but a <strong>Markup Language</strong>.
     </p>
     <h2>KEY FEATURES OF HTML</h2>
     <ul>
@@ -257,34 +269,61 @@
         It doesn't make things interactive, that's what javascript is for.
       </li>
     </ul>
+    <h2>WHAT CAN YOU DO WITH HTML?</h2>
     <ul>
-      <h2>WHAT CAN YOU DO WITH HTML?</h2>
-      <li>Structure content on a web page</li>
-      <li>Organize text into headings, paragraphs, and lists</li>
-      <li>Build simple websites or webpages</li>
-      <li>Create your digital resume or portfolio</li>
-      <li>Write structured online articles or tutorials</li>
-      <li>Lay the foundation before styling or adding interactions</li>
+      <li><strong>Structure content</strong> on a web page</li>
+      <li>
+        <strong>Organize text</strong> into headings, paragraphs, and lists
+      </li>
+      <li><strong>Build simple websites</strong> or webpages</li>
+      <li>Create a digital resume or portfolio website</li>
+      <li><strong>Write structured online articles</strong> or tutorials</li>
+      <li>
+        <strong>Lay the foundation</strong> before styling or adding
+        interactions
+      </li>
     </ul>
 
     <p class="para1">
-      Basic tags in HTML include the (h) for a new heading, the (p) for a new
-      paragraph,<br />
-      the (Br) to add a line break, the(AND SIGN+nbsp;) to give a space, &nbsp;
-      &nbsp; &nbsp; test,<br />
-      There are two types of list in HTML,the ordered and unordered list,<br />
-      The unordered list is added with UL IN THE ANGLE BRACKET. <br />
-      while the ordered list is added with OL IN THE ANGLE BRACKET. <br />
-      The item listed is added with LI IN THE ANGLE BRACKET. <br />
-      I'll give some examples of ordered items and unordered items, so lets
-      start with unordered items
+      Basic tags in HTML include the <code>&lt;h1&gt;</code> for a new heading,
+      the <code>&lt;p&gt;</code> for a new paragraph,<br />
+      the <br />
+      to add a line break, the <code>&nbsp;</code> entity to add a non-breaking
+      space, &nbsp; &nbsp; test,<br />
+      There are two types of lists in HTML: the unordered list
+      (<code>&lt;ul&gt;</code>) and the ordered list
+      (<code>&lt;ol&gt;</code>).<br />
+      The unordered list is added with
+      <code>&lt;ul&gt;</code> (<code>&lt;ul&gt;</code>).<br />
+      while the ordered list is added with
+      <code>&lt;ol&gt;</code> (<code>&lt;ol&gt;</code>).<br />
+      The items listed are added with <code>&lt;li&gt;</code> (
+      <li>
+        ).<br />
+        I'll give some examples of ordered items and unordered items, so let's
+        start with unordered items.
+        <ul>
+          <li>Apple</li>
+          <li>Banana</li>
+          <li>Orange</li>
+        </ul>
+        Now, let's look at ordered items.
+        <ol>
+          <li>First</li>
+          <li>Second</li>
+          <li>Third</li>
+        </ol>
+      </li>
     </p>
+
     <!--This is the start of html code for the second section, and we'll start each section with a header tag -->
+    <h3>Unordered items</h3>
     <ul>
       <li>DVD</li>
       <li>CD</li>
       <li>Blu Ray</li>
     </ul>
+    <h3>Ordered item list</h3>
     <ol>
       <li>DVD</li>
       <li>CD</li>
@@ -293,8 +332,8 @@
     <p class="para1">
       The difference between the UNORDERED LIST AND THE ORDERED LIST can be
       seen,<br />
-      the ordered list are the ones with numbers while the unordered are without
-      numbers
+      Ordered lists display items with numbers, while unordered lists use bullet
+      points.
     </p>
     <p>TABLES ARE ALSO MADE WITH HTML We are going to make a table here</p>
     <table>
@@ -355,22 +394,25 @@
     </p>
     <p>
       on sizing and resizing images, <br />
-      all you have to do is to add your desired or preferred width and height at
-      the front of the image code to get what you want.
+      all you have to do is add your desired or preferred width and height
+      attributes to the image tag, using pixels (e.g., width="200px") or
+      percentages (e.g., width="50%") for more control. For example:
+      <code>&lt;img src="..." width="200px" height="150px" /&gt;</code>
     </p>
+
     <p>
-      we are going to be talking about nested elements briefly,<br />nested
-      elements are elements inside another elements,<br />the only element that
-      is not inide another element is the HTML and that is called the root
-      element. <br />the head and the body are nested elements, they are both
-      inside the HTML. <br />
-      we'll call the body the parent nested element and then call the p the
-      child of the body element,<br />
-      it's always good to put the starting and closing tag inside the parent
-      element, <br />putting the closing tag outside the body element is a
-      mismanage element and it will start to cause a lot of problem.
-      <br />always keep the element nested inside the body to keep the parent
-      and child relationship
+      we are going to be talking about nested elements briefly. Nested elements
+      are elements inside another elements. The only element that is not inside
+      another element is the <code>&lt;html&gt;</code> element, which is called
+      the root element. The <code>&lt;head&gt;</code> and
+      <code>&lt;body&gt;</code> are nested elements, both inside the
+      <code>&lt;html&gt;</code>. We'll call the body the parent nested element
+      and then call the <code>&lt;p&gt;</code> element the child of the
+      <code>&lt;body&gt;</code> element. It's always good to put the starting
+      and closing tag inside the parent element; putting the closing tag outside
+      the body element is a misnested element and it will start to cause a lot
+      of problems. Always keep the parent and child elements properly nested
+      inside the body to maintain correct nesting.
     </p>
     <form action="method" class="forms">
       <label for="firstname">First Name:</label>
@@ -381,20 +423,16 @@
       <input type="text" id="Middlename" />
     </form>
     <p>
-      that was a one (single) line text box,the form element acts as a container
-      to put in whatever input feild we want,<br />
-      if you want it a lot wider all you have to do is the add the desirable
-      size you want,<br />
-      you can add a label to indicate what its for, so people will know the
-      information they are entering, <br />with labels informations can be
-      collected from user's which will be connected to our server where we will
-      process the data. <br />
-      we are going to be looking at a multi line text box next, <br />
-      in the single line text box we used the input element tag <br />
-      But in this multi-line text box we are going to use the text area element
-      tag. <br />
-      if you want to increase the size all you have to do is to add rows and
-      cols and add the size.
+      That was a one (single) line text box,the form element acts as a container
+      to put in whatever input field we want, if you want it a lot wider all you
+      have to do is the add the desirable size you want, you can add a label to
+      indicate what its for, so people will know the information they are
+      entering,with label information can be collected from user's which will be
+      connected to our server where we will process the data. we are going to be
+      looking at a multi line text box next, in the single line text box we used
+      the input element tag But in this multi-line text box we are going to use
+      the text area element tag. if you want to increase the size all you have
+      to do is to add rows and cols and add the size.
     </p>
     <form action="method" class="forms">
       comment: <br />
@@ -590,21 +628,22 @@
     />
     <br />
     <p>
-      that was for the title attribute <br />
-      the alt attribute stands for alternate text for an image,<br />
-      what it really allows is incase we can't display an image for a reason,<br />
+      That was for the title attribute the alt attribute stands for alternate
+      text for an image,<br />
+      what it really allows is incase we can't display an image for a reason,
       like if we have the wrong path or the image is no longer there you can
-      display alternate text so that at least something is displayed,<br />
-      i'll give an example of it too <br />
+      display alternate text so that at least something is displayed. Here's an
+      example:
+
       <img
         src="images/Pictures/image.jpg.g.jpg i"
         title="pink living room aesthetics"
         alt="image.jpg.g.jpg"
       />
       <br />
-      thats a perfect example, when you hover the image the title is there and
-      an alternate is there since the path is broken but it shows an image is
-      there. <br />
+      That's a perfect example, when you hover the image the title appears, and
+      if the image path is broken, the alternate text ("image.jpg.g.jpg") will
+      be displayed instead. <br />
     </p>
     <p>
       And next we are going to discuss the audio element tag, in adding an audio
@@ -617,20 +656,22 @@
     <br />
     <p>
       if you want the file to automatically play in the web for that we have to
-      use the autoplay attribute, <br />
-      and if you want it to loop you have to use the loop attribute so it will
-      loop over and over,<br />
+      use the autoplay attribute, and if you want it to loop you have to use the
+      loop attribute so it will loop over and over,<br />
       lets try it <br />
+      <audio controls autopla loop>
+        <source src="There's no shadow you won't light up.mp3" />
+      </audio>
     </p>
     <audio controls>
       <source src="There's no shadow you won't light up.mp3" />
     </audio>
     <br />
     <p>
-      and then we have the drag attribute, this allow you drag in the web
-      browser and it can be use anywhere in the webpages, the draggable, <br />
-      and then we have the video element, its what we use to add videos to our
-      web pages, <br />
+      And then we have the drag attribute, this allows you to drag in the web
+      browser and it can be used anywhere in the webpages, the draggable, and
+      then we have the video element, its what we use to add videos to our web
+      pages, <br />
     </p>
     <div class="video-wrapper">
       <video video controls><source src="so.mp4" /></video>
@@ -638,11 +679,14 @@
     <br />
     <p>
       we are going to talk about the DOCTYPE declaration we've been putting
-      before our HTML code, <br />the DOCTYPE is the very first thing that we
-      put in our HTML document, and it always come before the HTML tag,<br />
+      before our HTML code. The DOCTYPE is the very first thing that we put in
+      our HTML document, and it always comes before the HTML tag. It is
+      important to note that the DOCTYPE is not an HTML tag; it is an
+      instruction to the web browser about what version of HTML the page needs
+      to use. put in our HTML document, and it always come before the HTML tag,
       it is important that the DOCTYPE is not an HTML tag it is an instruction
       to the web browser about what version of HTML the page needs to use.
-      <br />
+
       <strong>AND THIS IS THE END OF BASIC HTML FOR BEGINNERS.</strong>
     </p>
 
@@ -653,49 +697,36 @@
         ></strong
       >
     </p>
-
+    <h1>INTRODUCTION TO CSS</h1>
     <h2>What is CSS?</h2>
-    &nbsp;
+
     <p>
-      CSS means CASCADING STYLE SHEETS, it is a style sheet language use for
-      describing the look and formating of a document written in a markup
-      language, <br />It adds style to the HTML, it can completely change how
-      the web page looks like without changing your HTML, <br />
-      Imagine you build a fence the fence will be the HTML. but the fence is
-      unpainted so in order to add color to it you need a paint. so paint would
-      bethe CSS, <br />so CSS adds style to the HTML which is the fence or
-      building block of our web page. the CSS goes into the stle element and it
-      is place within the head element. <br />
-      the style element is one way we can reference our CSS, you don't have to
-      use the angle brackets in CSS styles are called properties, in CSS the
-      semi column is a break, the px stands for pixels, it is the unit for
-      measuring the text that we use, to add colour to your header you use the
-      colour background, and can also change your font size, you use the border
-      bottom property/ attribute to add a line under your text,Next we are going
-      to talk about CSS inheritance and overriding, the way inheritance works is
-      theat if we go ahead and style against the body element all the child
-      element (all element nested in the body) will inherit that more like a
-      universal styling, being able to specify designs and styles for elements
-      nested in the body is where overridingcomes to play, inheritance only
-      works if you don't have an identical rule in the child element, classes
-      are used to select individual elements for styling
+      CSS stands for Cascading Style Sheets. It is a style sheet language used
+      to describe the appearance and formatting of a document written in HTML.
+      CSS adds style to your web pages, allowing you to change colors, fonts,
+      spacing, and layout without altering the HTML structure. Think of HTML as
+      the structure (like building a fence), and CSS as the paint that makes it
+      look attractive. CSS rules are placed inside the style element, usually
+      within the head section of your HTML document. In CSS, styles are defined
+      using properties (like color, font-size, background) and values (like
+      green, 16px, #fff). The semicolon (;) separates each property-value pair,
+      and px stands for pixels, a common unit for sizing. To style headers, you
+      can use properties like background-color and border-bottom. CSS
+      inheritance means that styles applied to parent elements (like body) are
+      inherited by child elements, unless overridden by more specific rules.
+      Classes are used to style individual elements, and you can override
+      inherited styles by targeting specific elements or classes.
     </p>
-    <h1><blockquote>INTRODUCTION TO CSS</blockquote></h1>
     <p>
       CSS stands for <span class="highlights"> Cascading style sheets</span>. It
       is used to style and layout web pages, for example to change the color of
       text, align items, create spacing,and make your web responsive on
-      different devices.
+      different devices. CSS is a language that describes how the HTML elements
+      are to be displayed on screen, paper, or in other media.
     </p>
-    <h2>WHAT IS CSS?</h2>
-    &nbsp;
-    <p>
-      CSS is a language that describes how the HTML elements are to be displayed
-      on screen, paper, or in other media.
-    </p>
-    <ul>
-      <li>Why do we need CSS?</li>
-    </ul>
+
+    <h2>Why do we need CSS?</h2>
+
     <p>
       Without CSS, every website would look like plain, unstyled text, like a
       word document. CSS allows you to:
@@ -967,17 +998,45 @@
     </p>
     <div id="main">
       <p>
-        <img class="image" src="images/liv.room.jpg" />
-
-        A PINK STYLISH LIVIVING ROOM: Step into elegance with this chic
-        pink-inspired living room, where comfort meets modern sophistication.
-        Soft blush walls set a calming backdrop. Plush velvet sofas invite
-        relaxation, accented by gold and marble decor for a touch of luxury.
-        Layered textures—pillows, throws, and a cozy rug—create warmth and
-        depth. Natural light streams through sheer curtains, highlighting
-        statement art and fresh florals. This space blends comfort and style,
-        making it perfect for both entertaining and unwinding.
+        <img
+          class="image"
+          src="images/liv.room.jpg"
+          style="float: left; width: 150px"
+          title="A floating image"
+          alt="Pink stylish living room"
+        />
       </p>
+
+      A PINK STYLISH LIVIVING ROOM: Step into elegance with this chic
+      pink-inspired living room, <br />
+      where comfort meets modern sophistication. Soft blush walls set a calming
+      backdrop. <br />
+      Plush velvet sofas invite relaxation, accented by gold and marble decor
+      for a touch of luxury.
+      <br />
+      Layered textures—pillows, throws, and a cozy rug—create warmth and depth.
+      <br />
+      Natural light streams through sheer curtains, highlighting statement art
+      and fresh florals. <br />
+      This space blends comfort and style, making it perfect for both
+      entertaining and unwinding.
     </div>
+    <p>
+      Relative positioning in CSS allows you to move an element relative to its
+      normal position in the document flow. You can use properties like
+      <code>top</code>, <code>left</code>, <code>right</code>, and
+      <code>bottom</code> to adjust its placement. The space originally reserved
+      for the element remains, so other elements are not affected. Relative
+      position is determined by the first static element. Absolute position is
+      determined by the first non static element.
+    </p>
+    <p>Vertical menu</p>
+    <ul>
+      <li class="vm"><a href="" class="a">Home</a></li>
+      <li class="vm"><a href="" class="a">Link</a></li>
+      <li class="vm"><a href="" class="a">Forum</a></li>
+      <li class="vm"><a href="" class="a">About</a></li>
+    </ul>
+    <p>The inline-block </p>
   </body>
 </html>
