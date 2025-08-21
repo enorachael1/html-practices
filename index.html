@@ -14,7 +14,7 @@
       body {
         color: green;
         font-weight: normal;
-        font-family: Verdana, Arial, Geneva, Tahoma, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         background-color: rgb(214, 223, 223);
         line-height: 1.5em;
         padding: 15px;
@@ -196,8 +196,55 @@
         border: 1px solid red;
         line-height: 25px;
       }
-      .a:hover{background-color: #d3d3d3;
-      color: black;}
+      .a:hover {
+        background-color: #d3d3d3;
+        color: black;
+      }
+      div.circle {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        border-radius: 50%;
+        margin: 20px auto;
+      }
+      div.triangle {
+        width: 0;
+        height: 0;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-bottom: 80px solid blue;
+      }
+      div.square {
+        height: 50px;
+        width: 50px;
+        background-color: blue;
+        border-radius: 0;
+      }
+      .aref {
+        color: blue;
+        text-decoration: none;
+      }
+      .aref:hover {
+        border-bottom: 4px solid red;
+      }
+      #theform {
+        color: solid black;
+        display: table;
+        border: solid 2px black;
+        padding: 15px;
+        background-color: #b4ecd2;
+      }
+      div.row {
+        display: table-row;
+      }
+      .row label {
+        display: table-cell;
+        padding: 2px;
+      }
+      .row input {
+        display: table-cell;
+        padding: 2px;
+      }
     </style>
   </head>
 
@@ -414,13 +461,19 @@
       of problems. Always keep the parent and child elements properly nested
       inside the body to maintain correct nesting.
     </p>
-    <form action="method" class="forms">
-      <label for="firstname">First Name:</label>
-      <input type="text" id="firstname" /> <br />
-      <label for="lastname">Last Name:</label>
-      <input type="text" id="lastname" /> <br />
-      <label for="Middlename">Middle Name:</label>
-      <input type="text" id="Middlename" />
+    <form action="method" id="theform">
+      <div class="row">
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" /> <br />
+      </div>
+      <div class="row">
+        <label for="lastname">Last Name:</label>
+        <input type="text" id="lastname" /> <br />
+      </div>
+      <div class="row">
+        <label for="Middlename">Middle Name:</label>
+        <input type="text" id="Middlename" />
+      </div>
     </form>
     <p>
       That was a one (single) line text box,the form element acts as a container
@@ -434,7 +487,7 @@
       the text area element tag. if you want to increase the size all you have
       to do is to add rows and cols and add the size.
     </p>
-    <form action="method" class="forms">
+    <form action="method" id="theform">
       comment: <br />
       <textarea rows="10" cols="40" name="Comments" id="Comments:"></textarea>
       <br />
@@ -447,7 +500,7 @@
       one option. <br />in inputing the radio button we still have to use the
       input tag with the type as radio,
     </p>
-    <form action="method" class="forms">
+    <form action="method" id="theform">
       yes:
       <input type="radio" name="yesorno" id="" /> <br />
       No:
@@ -464,7 +517,7 @@
       The user can always deselct this at anytime but whenever the page shows it
       as already been checked.
     </p>
-    <form action="method" class="forms">
+    <form action="method" id="theform">
       <input type="checkbox" name="" checked="checked" />Football<br />
       <input type="checkbox" name="" />Basketball <br />
       <input type="checkbox" name="" />Hockey <br />
@@ -484,10 +537,10 @@
       yeah thats where our minimum and maximun attribute come to use, <br />
       i'll give an example of that too
     </p>
-    <form action="method" class="forms">
-      <input type="number" /><br />
-      <input type="number" min="1" max="50" /> <br />
-      <input type="button" value="submit" />
+    <form action="method" id="theform">
+      <div class="row"><input type="number" /><br /></div>
+      <div class="row"><input type="number" min="1" max="50" /> <br /></div>
+      <div class="row"><input type="button" value="submit" /></div>
     </form>
     <p>
       next we are going to go over how to set up a drop down list in HTML, this
@@ -499,7 +552,7 @@
       and we use the option element imbedded inside the select element, <br />
       here are examples
     </p>
-    <form action="method" class="forms">
+    <form action="method" id="theform">
       <select name="" id="">
         <option value="London">London</option>
         <option value="Manchester">Manchester</option>
@@ -513,12 +566,14 @@
       and enable the user input a date and the number of days they want, <br />
       a minimum and maximum amount of days can also be set
     </p>
-    <form action="method" class="forms">
+    <form action="method" id="theform">
       Enter a day you want to travel to America:
-      <input type="date" name="Day" id="Day" /> <br />
+      <div class="row"><input type="date" name="Day" id="Day" /> <br /></div>
       Number of days:
-      <input type="date" name="NumDays" id="NumDays" min="1" max="10" /><br />
-      <input type="button" value="submit" />
+      <div class="row">
+        <input type="date" name="NumDays" id="NumDays" min="1" max="10" /><br />
+      </div>
+      <div class="row"><input type="button" value="submit" /></div>
     </form>
     <p>
       we are going to look at other things we can do with the Form element,
@@ -526,19 +581,26 @@
       and one of it is the Feildbox and legend element, the field form add some
       nice styling to you form
     </p>
-    <form action="mathod" class="forms">
+    <form action="method" id="theform">
       <fieldset>
         <legend>Enter a day you want to travel to America:</legend>
-        <input type="date" name="Day" id="Day" /> <br />
+        <div class="row"><input type="date" name="Day" id="Day" /> <br /></div>
         Number of days:
-        <input
-          type="date"
-          name="NumDays"
-          id="NumDays"
-          min="1"
-          max="10"
-        /><br /><br />
-        Name: <input type="text" /> <br /><input type="button" value="submit" />
+        <div class="row">
+          <input
+            type="date"
+            name="NumDays"
+            id="NumDays"
+            min="1"
+            max="10"
+          /><br /><br />
+        </div>
+        <div class="row">
+          Name: <input type="text" /> <br /><input
+            type="button"
+            value="submit"
+          />
+        </div>
       </fieldset>
     </form>
     <p id="parapink">
@@ -1030,13 +1092,104 @@
       position is determined by the first static element. Absolute position is
       determined by the first non static element.
     </p>
-    <p>Vertical menu</p>
+    <p>
+      Vertical menu are navigation bar where links are stacked top to buttom,
+      usually placed at the side of a webpage for clear and organised
+      navigation.
+    </p>
     <ul>
       <li class="vm"><a href="" class="a">Home</a></li>
       <li class="vm"><a href="" class="a">Link</a></li>
       <li class="vm"><a href="" class="a">Forum</a></li>
       <li class="vm"><a href="" class="a">About</a></li>
     </ul>
-    <p>The inline-block </p>
+    <p>
+      The inline-block display value, lets an element behave like an inline
+      element (sits in line with text or other elements) while also keeping the
+      ability of a block element (can have width, height, margin, paddding).
+      It's useful for placing elements side by side while still controlling
+      their size and spacing.
+    </p>
+    <p style="text-decoration: underline; font-size: larger">
+      Difference between <strong>Inline</strong>, <strong>Block</strong>, and
+      <strong>Inline-block</strong>
+    </p>
+    <ul>
+      <li>
+        Inline flows within text, only as wide as it's content, cannot set
+        width/height (e.g., <code>div, a</code>).
+      </li>
+      <li>
+        Block starts on a new line, takes full available width, you can set
+        width/height (e.g., <code>div, p</code>).
+      </li>
+      <li>
+        Inline-block sits in line like inline, but allows width/height
+        adjustments like block, useful for side by side layout.
+      </li>
+    </ul>
+    <p>web forms</p>
+    <a href="https://www.facebook.com"><img src="images/l.g.jpeg" /></a>
+    <div class="form">
+      <form action="method" id="theform">
+        <div class="row">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required /><br />
+        </div>
+        <div class="row">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required /><br />
+        </div>
+        <div class="row">
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4" cols="50"></textarea
+          ><br />
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+    <div class="circle"></div>
+    <p>
+      To create a perfect circle, set the width and height to the same value and
+      apply a border-radius of 50%.
+    </p>
+    <p>
+      To create a perfect triangle, you can use CSS borders. Set the width and
+      height to 0, and then set the border-left and border-right to equal values
+      while setting the border-bottom to a larger value.
+    </p>
+    <p>
+      To create a perfect square, set the width and height to the same value
+      without any border-radius and also add background-color.
+    </p>
+    <div class="triangle"></div>
+    &nbsp;
+    <div class="square"></div>
+    &nbsp;
+    <a class="aref" href="https://www.w3schools.com">visit w3 schools</a>
+    <h3>Fill out the form below and click "order now" to order</h3>
+
+    <form action="" method="" id="theform">
+      <div class="row">
+        <label for="name"> Name:</label>
+        <input type="text" id="name" name="" /> <br />
+      </div>
+
+      <div class="row">
+        <label for="address"> Address:</label>
+        <input type="text" id="address" name="" />
+        <br />
+      </div>
+
+      <div class="row">
+        <label for="email">Email: </label
+        ><input type="email" id="email" name="" /> <br />
+      </div>
+
+      <div class="row">
+        <label for="Phone"> Phone: </label
+        ><input type="tel" id="Phone" name="" />
+      </div>
+    </form>
   </body>
 </html>
