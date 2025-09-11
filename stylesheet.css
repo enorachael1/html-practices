@@ -9,7 +9,7 @@ style
 body {
   color: green;
   font-weight: normal;
-  font-family: Verdana, Arial, Geneva, Tahoma, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(214, 223, 223);
   line-height: 1.5em;
   padding: 15px;
@@ -17,6 +17,7 @@ body {
 
 h1,
 h2 {
+  color: green;
   border-bottom: 1px solid black;
   background-color: rgb(161, 219, 161);
   text-align: center;
@@ -32,6 +33,7 @@ h2 {
   margin-top: 20px;
 }
 h3 {
+  color: green;
   border-bottom: 1px solid black;
   background-color: rgb(161, 219, 161);
 }
@@ -67,7 +69,7 @@ p {
 }
 
 .para2 {
-  color: blue;
+  color: black;
   font-size: 15px;
   line-height: 2.5em;
   background-color: #c0b4ec;
@@ -75,11 +77,13 @@ p {
   border: 2px solid black;
   margin: 50px 10px;
   background-image: url(source.gif);
+  overflow: scroll;
+  height: 120px;
 }
 
 .forms,
 .forms2 {
-  color: blue;
+  color: black;
   font-size: 15px;
   line-height: 2.5em;
   padding: 20px;
@@ -88,8 +92,8 @@ p {
 }
 
 .forms {
-  background-color: #c3b4ec;
-  border: 2px solid blue;
+  background-color: #b4ecd2;
+  border: 2px solid rgb(0, 255, 42);
   margin: 50px 10px;
 }
 
@@ -158,4 +162,293 @@ a :visited {
 }
 a :hover {
   color: orange;
+}
+#main {
+  font-size: 15px;
+  line-height: 2.2em;
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+}
+.image {
+  display: block;
+  float: left;
+  margin-right: 20px;
+  max-width: 150px;
+  height: auto;
+}
+.vm {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: gray;
+  color: white;
+  display: block;
+  width: 80px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 2px;
+  height: auto;
+  text-align: center;
+  border: 1px solid red;
+  line-height: 25px;
+}
+.a:hover {
+  background-color: #d3d3d3;
+  color: black;
+}
+div.circle {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 50%;
+  margin: 20px auto;
+}
+div.triangle {
+  width: 0;
+  height: 0;
+  border-left: 40px solid transparent;
+  border-right: 40px solid transparent;
+  border-bottom: 80px solid blue;
+}
+div.square {
+  height: 50px;
+  width: 50px;
+  background-color: blue;
+  border-radius: 0;
+}
+.aref {
+  color: blue;
+  text-decoration: none;
+}
+.aref:hover {
+  border-bottom: 4px solid red;
+}
+#theform {
+  color: solid black;
+  display: table;
+  border: solid 2px black;
+  padding: 15px;
+  background-color: #b4ecd2;
+}
+div.row {
+  display: table-row;
+}
+.row label {
+  display: table-cell;
+  padding: 2px;
+}
+.row input {
+  display: table-cell;
+  padding: 2px;
+}
+#left {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#center {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#right {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#left,
+#center,
+#right {
+  border: solid 2px green;
+}
+#left1 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#center1 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#right1 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#left1,
+#center1,
+#right1 {
+  border: solid 2px green;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+#left2 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#center2 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#right2 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#left2,
+#center2,
+#right2 {
+  border: solid 2px green;
+}
+h2 ~ p.p2 {
+  color: red;
+}
+p[lang] {
+  background-color: orange;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+#rightp {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#rightp p:nth-child(odd) {
+  background-color: yellow;
+}
+#left3 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#center3 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#right3 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#right3 p,
+#left3 p,
+#center3 p {
+  color: blue;
+}
+:not(#right3 p, #left3 p, #center3 p) {
+  color: green;
+}
+#left4 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#center4 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#right4 {
+  width: 300px;
+  float: left;
+  margin: 10px;
+  padding: 15px;
+  background-color: #b7f3b7;
+}
+#right4 p::first-letter,
+#left4 p::first-letter,
+#center4 p::first-letter {
+  font-weight: bold;
+  font-size: 24px;
+}
+#right4 p::first-line,
+#left4 p::first-line,
+#center4 p::first-line {
+  color: red;
+}
+#box1 {
+  width: 300px;
+  height: 300px;
+  float: left;
+  padding: 15px;
+  margin: 10px;
+  background-color: blue;
+}
+#box2 {
+  width: 300px;
+  height: 300px;
+  float: left;
+  padding: 15px;
+  margin: 10px;
+  background-color: blue;
+  opacity: 0.5;
+}
+#box2:hover {
+  opacity: 1;
+}
+#box3 {
+  width: 800px;
+  height: 300px;
+  float: left;
+  background: blue;
+  background: linear-gradient(green, blue, yellow);
+}
+#box4 {
+  width: 800px;
+  height: 300px;
+  float: left;
+  background: blue;
+  background: linear-gradient(
+    to right,
+    rgb(255, 255, 0, 0.3),
+    rgb(0, 0, 255, 1)
+  );
+}
+#text1 {
+  text-align: center;
+  font: bold 60px helvetica;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#text2 {
+  text-align: center;
+  font: bold 60px helvetica;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

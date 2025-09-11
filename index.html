@@ -3,249 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      /* GLOBAL RESET */
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
-
-      body {
-        color: green;
-        font-weight: normal;
-        font-family: Arial, Helvetica, sans-serif;
-        background-color: rgb(214, 223, 223);
-        line-height: 1.5em;
-        padding: 15px;
-      }
-
-      h1,
-      h2 {
-        color: green;
-        border-bottom: 1px solid black;
-        background-color: rgb(161, 219, 161);
-        text-align: center;
-      }
-
-      h1 {
-        font-size: 150%;
-        margin-bottom: 10px;
-      }
-
-      h2 {
-        font-size: 1.2em;
-        margin-top: 20px;
-      }
-      h3 {
-        color: green;
-        border-bottom: 1px solid black;
-        background-color: rgb(161, 219, 161);
-      }
-
-      .black {
-        color: black;
-        font-size: 29px;
-        font-family: Verdana;
-        text-decoration: underline;
-      }
-
-      p {
-        color: green;
-        font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 15px;
-      }
-
-      .italic {
-        color: black;
-        font-size: 17px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-style: italic;
-      }
-
-      #para1 {
-        color: green;
-        font-size: 15px;
-        line-height: 2.5em;
-        background-color: rgb(214, 223, 223);
-        padding: 5px;
-        /* border: 2px solid black; */
-        margin-bottom: 20px;
-      }
-
-      .para2 {
-        color: black;
-        font-size: 15px;
-        line-height: 2.5em;
-        background-color: #c0b4ec;
-        padding: 5%;
-        border: 2px solid black;
-        margin: 50px 10px;
-        background-image: url(source.gif);
-        overflow: scroll;
-        height: 120px;
-      }
-
-      .forms,
-      .forms2 {
-        color: black;
-        font-size: 15px;
-        line-height: 2.5em;
-        padding: 20px;
-        width: 100%;
-        box-sizing: border-box;
-      }
-
-      .forms {
-        background-color: #b4ecd2;
-        border: 2px solid rgb(0, 255, 42);
-        margin: 50px 10px;
-      }
-
-      .forms2 {
-        background-color: #ebe9f0;
-        border: 2px solid black;
-        margin: 50px 10%;
-      }
-
-      .img {
-        display: block;
-        margin: 20px auto;
-        padding: 10px;
-        background-color: silver;
-        border: 2px solid black;
-        height: auto;
-        max-width: 100%;
-        box-sizing: border-box;
-      }
-
-      /* MEDIA QUERY FOR MOBILE SCREENS */
-      @media (max-width: 768px) {
-        .para2,
-        .forms,
-        .forms2 {
-          margin: 20px 10px;
-          padding: 10px;
-        }
-
-        .forms2 {
-          margin: 20px 10px;
-        }
-      }
-      .video-wrapper {
-        width: 100%;
-        max-width: 100%;
-        overflow: hidden;
-        margin: 20px auto;
-      }
-      .video-wrapper video {
-        width: 100%;
-        height: auto;
-        display: block;
-        border: 2px solid black;
-        box-sizing: border-box;
-      }
-      ul,
-      ol {
-        padding-left: 20px;
-        margin-bottom: 20px;
-      }
-      ul {
-        list-style-type: disc;
-      }
-      ol {
-        list-style-type: decimal;
-      }
-      .highlights {
-        background-color: #ff0;
-      }
-      a :link {
-        color: blue;
-      }
-      a :visited {
-        color: #c0b4ec;
-      }
-      a :hover {
-        color: orange;
-      }
-      #main {
-        font-size: 15px;
-        line-height: 2.2em;
-        width: 100%;
-        margin: 20px auto;
-        padding: 20px;
-      }
-      .image {
-        display: block;
-        float: left;
-        margin-right: 20px;
-        max-width: 150px;
-        height: auto;
-      }
-      .vm {
-        font-family: Georgia, "Times New Roman", Times, serif;
-        background-color: gray;
-        color: white;
-        display: block;
-        width: 80px;
-        margin: 5px;
-        padding: 10px;
-        border-radius: 2px;
-        height: auto;
-        text-align: center;
-        border: 1px solid red;
-        line-height: 25px;
-      }
-      .a:hover {
-        background-color: #d3d3d3;
-        color: black;
-      }
-      div.circle {
-        width: 100px;
-        height: 100px;
-        background-color: blue;
-        border-radius: 50%;
-        margin: 20px auto;
-      }
-      div.triangle {
-        width: 0;
-        height: 0;
-        border-left: 40px solid transparent;
-        border-right: 40px solid transparent;
-        border-bottom: 80px solid blue;
-      }
-      div.square {
-        height: 50px;
-        width: 50px;
-        background-color: blue;
-        border-radius: 0;
-      }
-      .aref {
-        color: blue;
-        text-decoration: none;
-      }
-      .aref:hover {
-        border-bottom: 4px solid red;
-      }
-      #theform {
-        color: solid black;
-        display: table;
-        border: solid 2px black;
-        padding: 15px;
-        background-color: #b4ecd2;
-      }
-      div.row {
-        display: table-row;
-      }
-      .row label {
-        display: table-cell;
-        padding: 2px;
-      }
-      .row input {
-        display: table-cell;
-        padding: 2px;
-      }
-    </style>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
   </head>
 
   <body>
@@ -1191,5 +949,259 @@
         ><input type="tel" id="Phone" name="" />
       </div>
     </form>
+
+    <h3>Review and descendant selectors</h3>
+    <p>
+      selectors are very important in CSS, they are fundamental. The "type
+      selector" selects elements based on their type (e.g., div, p), The ID
+      selector selects an element based on its unique ID (e.g., #header selects
+      the element with id="header") its select element with (#). The class
+      selector select element with (.class). we can also combine selectors using
+      combined selectors, we use a comma to seperate when we use multiple
+      selectors. While the descendant selector selects elements that are nested
+      within a specific parent element (e.g., div p selects all p elements
+      inside a div), The child selector selects elements that are direct
+      children of a specific parent element (e.g., div > p).
+    </p>
+    <p>
+      The sibling selector, the sibling selectors select elements that share the
+      same parent element. For example, div > p selects all p elements that are
+      direct children of a div element.
+    </p>
+
+    <div class="flex-container">
+      <div>
+        <div id="left">
+          <h2>Left content area</h2>
+          <p>
+            The area will contain the left content area, we'll populate this
+            area with image and text.
+          </p>
+        </div>
+        <div id="center">
+          <h2>Center content area</h2>
+          <p>
+            This area will contain the center content area, this area will
+            contain the main article.
+          </p>
+        </div>
+        <div id="right">
+          <h2>Right content area</h2>
+          <p>
+            This area will contain the right content area, we'll populate this
+            area with link and text.
+          </p>
+        </div>
+      </div>
+      <!-- <p>The sibling selector</p>  -->
+      <div>
+        <div id="left1">
+          <h2>Left content area</h2>
+          <p>
+            The area will contain the left content area, we'll populate this
+            area with image and text.
+          </p>
+        </div>
+        <div id="center1">
+          <h2>Center content area</h2>
+          <p>
+            This area will contain the center content area, this area will
+            contain the main article.
+          </p>
+          <p>Another paragraph</p>
+        </div>
+        <div id="right1">
+          <h2>Right content area</h2>
+          <p>
+            This area will contain the right content area, we'll populate this
+            area with link and text.
+          </p>
+        </div>
+      </div>
+
+      <h3>Typical CSS selectors include:</h3>
+      <p>
+        Types of selectors include: sibling selectors, child selectors, and
+        descendant selectors.
+      </p>
+      <p>
+        The general sibling selector (e.g., div ~ p) selects all p elements that
+        are siblings of a div element, regardless of their position in the
+        hierarchy.
+      </p>
+      <p>
+        #1 The adjacent sibling selector (e.g., div + p) selects the first p
+        element that is immediately following a div element.
+      </p>
+      <p>
+        The child combinator (e.g., div > p) selects all p elements that are
+        direct children of a div element.
+      </p>
+      <p>
+        The nth child selector (e.g., div:nth-child(n)) selects the nth child of
+        a parent element.
+      </p>
+      <div id="rightp">
+        <p>some text</p>
+        <p>more text</p>
+        <p>even more text</p>
+        <p>some text</p>
+        <p>some more text</p>
+        <p>even more text</p>
+        <p>some text</p>
+        <p>more text</p>
+        <p>even more text</p>
+      </div>
+      <p>Not selectors selector</p>
+      <div>
+        <div id="left3">
+          <h2>Left content area</h2>
+          <h3>Paragraph one</h3>
+          <p>
+            The area will contain the left content area, we'll populate this
+            area with image and text.
+          </p>
+        </div>
+        <div id="center3">
+          <h2>Center content area</h2>
+          <h3>Paragraph one</h3>
+          <p>
+            This area will contain the center content area, this area will
+            contain the main article.
+          </p>
+          <p>Another paragraph</p>
+        </div>
+        <div id="right3">
+          <h2>Right content area</h2>
+          <h3>Paragraph one</h3>
+          <p>
+            This area will contain the right content area, we'll populate this
+            area with link and text.
+          </p>
+        </div>
+      </div>
+
+      <p>
+        The descendant selector (e.g., div p) selects all p elements that are
+        nested within a div element.
+      </p>
+      <p>
+        The universal selector (e.g., *) selects all elements in the document.
+      </p>
+      <p>
+        The attribute selector (e.g., [type="text"]) selects elements based on
+        their attributes.
+      </p>
+      <div>
+        <div id="left2">
+          <h2 class="p2">Left Content Area</h2>
+          <p class="p2">
+            This area will contain the left content area, we'll populate this
+            area with image and text.
+          </p>
+        </div>
+
+        <div id="center2">
+          <h2 class="p2">Center Content Area</h2>
+          <p class="p2">
+            This area will contain the center content area, this area will
+            contain the main article.
+          </p>
+        </div>
+        <div id="right2">
+          <p lang="en" class="p2">Some text</p>
+          <p lang="fr" class="p2">More text.</p>
+          <p lang="fr co" class="p2">Even more text</p>
+        </div>
+      </div>
+
+      <p>The first selector selects first letters of elements</p>
+
+      <div>
+        <div id="left4">
+          <h2 class="">Left Content Area</h2>
+          <p class="">
+            This area will contain the left content area, we'll populate this
+            area with image and text.
+          </p>
+        </div>
+
+        <div id="center4">
+          <h2 class="">Center Content Area</h2>
+          <p class="">
+            This area will contain the center content area, this area will
+            contain the main article.
+          </p>
+        </div>
+        <div id="right4">
+          <h2>Right content area</h2>
+          <p>
+            This area will contain the right content area, we'll populate this
+            area with link and text.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h2>Strategies for Using CSS Selectors Effectively</h2>
+    <p>strategies for using CSS selectors effectively:</p>
+    <ul>
+      <li>
+        Be specific: Use more specific selectors to target elements precisely.
+      </li>
+      <li>
+        Avoid over-qualification: Don't use overly complex selectors when
+        simpler ones will do.
+      </li>
+      <li>
+        Use classes and IDs: Prefer classes and IDs over element selectors for
+        better performance.
+      </li>
+      <li>
+        Keep it simple: Write clear and concise selectors for better
+        readability.
+      </li>
+    </ul>
+    <h1>CSS PROPERTIES</h1>
+    <p>
+      CSS properties are used to apply styles to HTML elements. Some common CSS
+      properties include:
+    </p>
+    <h2>Opacity property</h2>
+    <p>
+      The opacity property in CSS is used to specify the transparency level of
+      an element. It can take values from 0.0 (completely transparent) to 1.0
+      (completely opaque). There are several ways to achieve transparency in
+      CSS, including using the rgba() color function, the hsla() color function,
+      and the opacity property itself. there are different part of opacity such
+      as background opacity, border opacity, and text opacity.
+    </p>
+    <h3>WORKING AGAINST A DIV ELEMENT</h3>
+    <p>
+      When working against a div element, you can apply the opacity property to
+      the entire element, including its background, border, and text.
+    </p>
+    <div class="flex-container">
+      <div id="box1"></div>
+      <div id="box2"></div>
+      <h3>CSS Gradient</h3>
+      <p>
+        CSS Gradient is a way to create a smooth transition between two or more
+        colors.
+      </p>
+      <p>Linear Gradient is a gradient that follows a straight line.</p>
+      <div id="box3"></div>
+      <h3>
+        Opacity and Gradient is a combination of both properties to create
+        visually appealing effects.
+      </h3>
+      <div id="box4"></div>
+    </div>
+    <h2>Text Shadow Property</h2>
+    <p>Text Shadow is a property that adds shadow effects to text.</p>
+    <p id="text1">Some text in this paragraph</p>
+    <br />
+    <br /><br /><br />
+    <p id="text2">Some text in this paragraph</p>
   </body>
 </html>
