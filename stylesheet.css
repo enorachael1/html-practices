@@ -20,6 +20,7 @@ h2 {
   color: green;
   border-bottom: 1px solid black;
   background-color: rgb(161, 219, 161);
+  border-radius: 5px;
   text-align: center;
 }
 
@@ -445,10 +446,50 @@ p[lang] {
 #text1 {
   text-align: center;
   font: bold 60px helvetica;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 3px 3px 5px orange, 6px 6px 10px blue;
 }
 #text2 {
   text-align: center;
   font: bold 60px helvetica;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 6px 6px 10px rgb(0, 0, 255, 0.5);
+}
+#box5 {
+  width: 600px;
+  height: 200px;
+  background-color: blue;
+  box-shadow: 15px 15px 5px orange;
+}
+#box6 {
+  width: 600px;
+  height: 200px;
+  background-color: light gray;
+  box-shadow: inset 0 0 15px black;
+}
+#header {
+  background-color: #88cf8e;
+  margin: 10px;
+  height: 90px;
+  border-radius: 5px;
+}
+#navbar {
+  background-color: #3f8344;
+  border-radius: 5px;
+  margin: 10px;
+  height: 35px;
+}
+.sideright {
+  background-color: #9acc9d;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 105%;
+  float: right;
+  width: 260px;
+}
+.main {
+  background-color: #3f8344;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 110%;
 }

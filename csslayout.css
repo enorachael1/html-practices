@@ -1,0 +1,28 @@
+#header {
+  background-color: #88cf8e;
+  margin: 10px;
+  height: 90px;
+  border-radius: 5px;
+}
+#navbar {
+  background-color: #3f8344;
+  border-radius: 5px;
+  margin: 10px;
+  height: 35px;
+}
+.sideright {
+  background-color: #9acc9d;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 105%;
+  float: right;
+  width: 260px;
+}
+.main {
+  background-color: #3f8344;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 110%;
+}
