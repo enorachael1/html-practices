@@ -21,8 +21,19 @@
 }
 .main {
   background-color: #3f8344;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 320px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 5px;
   padding: 20px;
   font-size: 110%;
+}
+h1 {
+  font-size: 120%;
+  color: darkblue;
+}
+h2 {
+  font-size: 110%;
+  color: darkblue;
 }
