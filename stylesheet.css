@@ -85,7 +85,7 @@ body {
   padding: 15px;
   font-size: 105%;
   float: right;
-  width: 260px;
+  width: 200px;
   line-height: 1.5em;
   clear: right;
 }
@@ -97,7 +97,7 @@ body {
   margin-left: 10px;
   border-radius: 5px;
   float: right;
-  width: 300px;
+  width: 80px;
   clear: right;
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
@@ -500,14 +500,14 @@ p[lang] {
   opacity: 1;
 } /*box gradient*/
 #box3 {
-  width: 800px;
+  width: 300px;
   height: 300px;
   float: left;
   background: blue;
   background: linear-gradient(green, blue, yellow);
 }
 #box4 {
-  width: 800px;
+  width: 300px;
   height: 300px;
   float: left;
   background: blue;
@@ -528,22 +528,23 @@ p[lang] {
   text-shadow: 6px 6px 10px rgb(0, 0, 255, 0.5);
 } /*box shadow*/
 #box5 {
-  width: 600px;
+  width: 300px;
   height: 200px;
   background-color: blue;
   box-shadow: 15px 15px 5px orange;
 }
 #box6 {
-  width: 600px;
+  width: 300px;
   height: 200px;
   background-color: light gray;
   box-shadow: inset 0 0 15px black;
 }
 /* MEDIA QUERY FOR MOBILE SCREENS */
-@media (max-width: 768px) {
+@media (max-width: 400px) {
   .imagesidebar {
     display: none;
   }
+ 
   #text1 {
     display: none;
   }
