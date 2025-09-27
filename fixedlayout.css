@@ -29,13 +29,6 @@ body {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-} /*logo section*/
-#img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  max-height: 100%;
 }
 #navbar ul {
   padding: 5px;
@@ -184,9 +177,6 @@ p {
 
 /* MEDIA QUERY FOR MOBILE SCREENS */
 @media (max-width: 768px) {
-  .imagesidebar {
-    display: none;
-  }
 }
 .video-wrapper {
   width: 100%;
