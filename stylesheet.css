@@ -187,6 +187,12 @@ p {
   .imagesidebar {
     display: none;
   }
+  #text1 {
+    display: none;
+  }
+  #text2 {
+    display: none;
+  }
 }
 .video-wrapper {
   width: 100%;
@@ -532,7 +538,32 @@ p[lang] {
   height: 200px;
   background-color: light gray;
   box-shadow: inset 0 0 15px black;
-} /*flex box*/
+}
+/* MEDIA QUERY FOR MOBILE SCREENS */
+@media (max-width: 768px) {
+  .imagesidebar {
+    display: none;
+  }
+  #text1 {
+    display: none;
+  }
+  #text2 {
+    display: none;
+  }
+  #box5 {
+    display: none;
+  }
+  #box6 {
+    display: none;
+  }
+  .flex-container {
+    display: none;
+  }
+  .main {
+    display: none;
+  }
+}
+/*flex box*/
 .flex-container {
   display: flex;
   flex-direction: column;
