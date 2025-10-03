@@ -32,6 +32,7 @@ body {
   margin-bottom: 20px;
   margin-top: 30px;
   margin-left: 100px;
+  margin-right: 5px;
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -312,21 +313,21 @@ div.row {
 }
 /*css selectors*/
 #left {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
   background-color: #b7f3b7;
 }
 #center {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
   background-color: #b7f3b7;
 }
 #right {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
@@ -338,21 +339,21 @@ div.row {
   border: solid 2px green;
 }
 #left1 {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
   background-color: #b7f3b7;
 }
 #center1 {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
   background-color: #b7f3b7;
 }
 #right1 {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
@@ -365,21 +366,21 @@ div.row {
 }
 
 #left2 {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
   background-color: #b7f3b7;
 }
 #center2 {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
   background-color: #b7f3b7;
 }
 #right2 {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
@@ -401,7 +402,7 @@ p[lang] {
   flex-direction: column;
 }
 #rightp {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
@@ -411,21 +412,21 @@ p[lang] {
   background-color: yellow;
 }
 #left3 {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
   background-color: #b7f3b7;
 }
 #center3 {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
   background-color: #b7f3b7;
 }
 #right3 {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
@@ -440,21 +441,21 @@ p[lang] {
   color: green;
 }
 #left4 {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
   background-color: #b7f3b7;
 }
 #center4 {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
   background-color: #b7f3b7;
 }
 #right4 {
-  width: 100px;
+  width: 90px;
   float: left;
   margin: 5px;
   padding: 5px;
