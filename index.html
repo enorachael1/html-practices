@@ -8,8 +8,8 @@
 
   <body>
     <div id="header">
-      <img src="logo.png" alt="" id="img" />
-      <div ><h1>FRONTEND DEVELOPMENT</h1></div>
+      <img src="logo.png" alt="" class="imgg" />
+      <div><h1>FRONTEND DEVELOPMENT</h1></div>
     </div>
     <div id="navbar">
       <ul>
@@ -43,9 +43,9 @@
         I'll do a brief introduction to HTML (Hypertext Markup Language). HTML
         stands for Hypertext Markup Language. It is the standard language used
         to create and structure content on the web. Everything you see on web
-        pages, text, images, links, forms is written using HTML. An HTML document
-        contains content that web browsers read and display. With HTML, we can
-        add everything displayed on a website. HTML is the skeleton of a
+        pages, text, images, links, forms is written using HTML. An HTML
+        document contains content that web browsers read and display. With HTML,
+        we can add everything displayed on a website. HTML is the skeleton of a
         website the building blocks of web pages. HTML is the foundation of
         every webpage. Without HTML, web pages wouldn't exist, even when using
         modern tools and platforms. HTML is always working in the background.
@@ -936,25 +936,34 @@
           adjustments like block, useful for side by side layout.
         </li>
       </ul>
-      <p>web forms</p>
-      <a href="https://www.facebook.com"><img src="images/l.g.jpeg" /></a>
-      <div class="form">
-        <form action="method" id="theform">
-          <div class="row">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required /><br />
-          </div>
-          <div class="row">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required /><br />
-          </div>
-          <div class="row">
-            <label for="message">Message:</label><br />
-            <textarea id="message" name="message" rows="4" cols="50"></textarea
-            ><br />
-            <input type="submit" value="Submit" />
-          </div>
-        </form>
+      <p>Web forms</p>
+      <div  class="flex-container">
+        <a href="https://www.facebook.com"
+          ><img src="images/l.g.jpeg" class="imgg"
+        /></a>
+        <div class="form">
+          <form action="method" id="theform">
+            <div class="row">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required /><br />
+            </div>
+            <div class="row">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required /><br />
+            </div>
+            <div class="row">
+              <label for="message">Message:</label><br />
+              <textarea
+                id="message"
+                name="message"
+                rows="4"
+                cols="50"
+              ></textarea
+              ><br />
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
       </div>
       <div class="circle"></div>
       <p>

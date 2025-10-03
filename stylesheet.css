@@ -39,7 +39,7 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 } /*logo section*/
-#img {
+.imgg {
   float: left;
   display: block;
   margin-left: auto;
@@ -160,7 +160,7 @@ p {
   background-color: #c0b4ec;
   padding: 5%;
   border: 2px solid black;
-  margin: 50px 10px;
+  margin: 20px 10px;
   background-image: url(source.gif);
   overflow: scroll;
   height: 120px;
@@ -178,11 +178,11 @@ p {
   font-size: 15px;
   line-height: 2.5em;
   padding: 20px;
-  width: 100%;
+  width: 300px;
   box-sizing: border-box;
   background-color: rgb(161, 219, 161);
   border: 2px solid rgb(161, 219, 161);
-  margin: 50px 10px;
+  margin: 20px 10px;
 }
 
 /* MEDIA QUERY FOR MOBILE SCREENS */
