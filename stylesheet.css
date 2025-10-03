@@ -15,15 +15,24 @@ body {
 }
 #header {
   background-color: #88cf8e;
-  margin: 10px;
-  height: 90px;
+  margin: auto;
   border-radius: 5px;
+  height: 90px;
+  width: auto;
+  color: green;
+  padding: 15px;
 }
 #header h1 {
-  font-size: 250%;
+  color: green;
+  border-bottom: 1px rgba(0, 0, 0, 0);
+  background-color: #88cf8e;
+  border-radius: 5px;
   text-align: center;
+  font-size: 250%;
   font-family: "century gothic", "Gill Sans", Arial, Helvetica, sans-serif;
-  margin: opx;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-left: 100px;
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -31,6 +40,7 @@ body {
   transform: translateY(-50%);
 } /*logo section*/
 #img {
+  float: left;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -84,7 +94,7 @@ body {
   padding: 15px;
   font-size: 105%;
   float: right;
-  width: 80px;
+  width: 20%;
   line-height: 1.5em;
   clear: right;
 }
@@ -96,7 +106,7 @@ body {
   margin-left: 10px;
   border-radius: 5px;
   float: right;
-  width: 80px;
+  width: 20%;
   clear: right;
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
@@ -112,14 +122,8 @@ h2 {
   background-color: #88cf8e;
   border-radius: 5px;
   text-align: center;
-}
-
-h1 {
   font-size: 150%;
   margin-bottom: 20px;
-}
-
-h2 {
   font-size: 1.2em;
   margin-top: 20px;
 }
@@ -182,14 +186,11 @@ p {
 }
 
 /* MEDIA QUERY FOR MOBILE SCREENS */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .imagesidebar {
     display: none;
   }
-  #text1 {
-    display: none;
-  }
-  #text2 {
+  .sideright {
     display: none;
   }
 }
@@ -537,31 +538,6 @@ p[lang] {
   height: 200px;
   background-color: light gray;
   box-shadow: inset 0 0 15px black;
-}
-/* MEDIA QUERY FOR MOBILE SCREENS */
-@media (max-width: 400px) {
-  .imagesidebar {
-    display: none;
-  }
- 
-  #text1 {
-    display: none;
-  }
-  #text2 {
-    display: none;
-  }
-  #box5 {
-    display: none;
-  }
-  #box6 {
-    display: none;
-  }
-  .flex-container {
-    display: none;
-  }
-  .main {
-    display: none;
-  }
 }
 /*flex box*/
 .flex-container {
