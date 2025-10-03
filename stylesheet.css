@@ -18,17 +18,16 @@ body {
   margin: auto;
   border-radius: 5px;
   height: 90px;
-  width: auto;
   color: green;
-  padding: 15px;
+  padding: 5px;
 }
 #header h1 {
   color: green;
   border-bottom: 1px rgba(0, 0, 0, 0);
   background-color: #88cf8e;
-  border-radius: 5px;
+  border-radius: 2px;
   text-align: center;
-  font-size: 250%;
+  font-size: 200%;
   font-family: "century gothic", "Gill Sans", Arial, Helvetica, sans-serif;
   margin-bottom: 20px;
   margin-top: 30px;
@@ -76,22 +75,22 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(214, 223, 223);
   line-height: 1.5em;
-  padding: 15px;
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  border-radius: 5px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border-radius: 2px;
   font-size: 15px;
 }
 .sideright {
   background-color: #9acc9d;
   margin-top: 0px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  border-radius: 5px;
-  padding: 15px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border-radius: 2px;
+  padding: 5px;
   font-size: 105%;
   float: right;
   width: 20%;
@@ -101,10 +100,10 @@ body {
 
 .imagesidebar {
   margin-top: 0px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border-radius: 2px;
   float: right;
   width: 20%;
   clear: right;
@@ -169,7 +168,7 @@ p {
   color: black;
   display: table;
   border: 2px black;
-  padding: 15px;
+  padding: 5px;
   background-color: #b4ecd2;
 }
 
@@ -178,11 +177,11 @@ p {
   font-size: 15px;
   line-height: 2.5em;
   padding: 20px;
-  width: 300px;
+  width: 200px;
   box-sizing: border-box;
   background-color: rgb(161, 219, 161);
   border: 2px solid rgb(161, 219, 161);
-  margin: 20px 10px;
+  margin: 10px 10px;
 }
 
 /* MEDIA QUERY FOR MOBILE SCREENS */
@@ -300,13 +299,6 @@ div.square {
 .aref:hover {
   border-bottom: 4px solid red;
 }
-#theform {
-  color: solid black;
-  display: table;
-  border: solid 2px black;
-  padding: 15px;
-  background-color: #b4ecd2;
-}
 div.row {
   display: table-row;
 }
@@ -320,24 +312,24 @@ div.row {
 }
 /*css selectors*/
 #left {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #center {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #right {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #left,
@@ -346,24 +338,24 @@ div.row {
   border: solid 2px green;
 }
 #left1 {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #center1 {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #right1 {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #left1,
@@ -373,24 +365,24 @@ div.row {
 }
 
 #left2 {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #center2 {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #right2 {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #left2,
@@ -409,34 +401,34 @@ p[lang] {
   flex-direction: column;
 }
 #rightp {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #rightp p:nth-child(odd) {
   background-color: yellow;
 }
 #left3 {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #center3 {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #right3 {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #right3 p,
@@ -448,24 +440,24 @@ p[lang] {
   color: green;
 }
 #left4 {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #center4 {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #right4 {
-  width: 300px;
+  width: 100px;
   float: left;
-  margin: 10px;
-  padding: 15px;
+  margin: 5px;
+  padding: 5px;
   background-color: #b7f3b7;
 }
 #right4 p::first-letter,
@@ -480,19 +472,19 @@ p[lang] {
   color: red;
 } /*opacity property*/
 #box1 {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   float: left;
-  padding: 15px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
   background-color: blue;
 }
 #box2 {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   float: left;
-  padding: 15px;
-  margin: 10px;
+  padding: 5px;
+  margin: 5px;
   background-color: blue;
   opacity: 0.5;
 }
@@ -500,15 +492,15 @@ p[lang] {
   opacity: 1;
 } /*box gradient*/
 #box3 {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   float: left;
   background: blue;
   background: linear-gradient(green, blue, yellow);
 }
 #box4 {
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   float: left;
   background: blue;
   background: linear-gradient(
@@ -528,14 +520,14 @@ p[lang] {
   text-shadow: 6px 6px 10px rgb(0, 0, 255, 0.5);
 } /*box shadow*/
 #box5 {
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 100px;
   background-color: blue;
   box-shadow: 15px 15px 5px orange;
 }
 #box6 {
-  width: 300px;
-  height: 200px;
+  width: 200px;
+  height: 100px;
   background-color: light gray;
   box-shadow: inset 0 0 15px black;
 }
