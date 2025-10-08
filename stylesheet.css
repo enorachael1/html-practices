@@ -84,7 +84,8 @@ body {
   border-radius: 2px;
   font-size: 15px;
 }
-.mainsid {  color: green;
+.mainsid {
+  color: green;
   font-weight: normal;
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(214, 223, 223);
@@ -96,7 +97,6 @@ body {
   margin-left: 5px;
   border-radius: 2px;
   font-size: 15px;
-
 }
 .sideright {
   background-color: #9acc9d;
@@ -201,11 +201,30 @@ p {
 
 /* MEDIA QUERY FOR MOBILE SCREENS */
 @media (max-width: 480px) {
+  .imagesidebar,
+  .sideright {
+    width: 100%;
+    float: none;
+    clear: both;
+    margin: 0 0 20px 0;
+    box-sizing: border-box;
+  }
+
   .imagesidebar {
     display: block;
+    max-width: 100%;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
   }
+
   .sideright {
-    display: block;
+    padding: 10px;
+  }
+
+  .main,
+  .mainsid {
+    width: 100%;
+    margin-right: 0;
   }
 }
 .video-wrapper {
