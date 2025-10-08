@@ -200,7 +200,7 @@ p {
 }
 
 /* MEDIA QUERY FOR MOBILE SCREENS */
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .imagesidebar {
     display: none;
   }
