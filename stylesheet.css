@@ -98,7 +98,6 @@ body {
   border-radius: 2px;
   font-size: 15px;
   width: 50%;
-  border: 2px solid #88cf8e;
 }
 
 .sideright {
@@ -108,7 +107,7 @@ body {
   margin-bottom: 5px;
   margin-left: 15px;
   border-radius: 5px;
-  border: 2px solid green;
+  border: 2px;
   padding: 5px;
   font-size: 15px;
   float: right;
@@ -119,16 +118,16 @@ body {
 
 .imagesidebar {
   margin-top: 5px;
-  margin-right: 5px;
+  margin-right: px;
   margin-bottom: 5px;
-  margin-left: 15px;
+  margin-left: 5px;
   border-radius: 2px;
   float: right;
-  width:30% ;
+  width: 30%;
   clear: right;
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
-  border: 2px solid green;
+  border: 2px;
 }
 .imagesidebar:hover {
   opacity: 0.4;
@@ -206,54 +205,53 @@ p {
 
 /* MEDIA QUERY FOR MOBILE SCREENS */
 @media (max-width: 480px) {
-.mainsid {
-  display: block;
-  color: green;
-  font-weight: normal;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(214, 223, 223);
-  line-height: 1.5em;
-  padding: 5px;
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 5px;
-  border-radius: 2px;
-  font-size: 15px;
-  width: 130px;
-  border: 2px solid #88cf8e;
+  .mainsid {
+    display: block;
+    color: green;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(214, 223, 223);
+    line-height: 1.5em;
+    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 2px;
+    font-size: 15px;
+    width: 130px;
+  }
 
+  .sideright {
+    display: block;
+    background-color: #9acc9d;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+    border-radius: 5px;
+    border: 2px;
+    padding: 5px;
+    font-size: 15px;
+    float: right;
+    width: 120px;
+    line-height: 1.5em;
+    clear: right;
+  }
 
-.sideright {
-  display: block;
-  background-color: #9acc9d;
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 15px;
-  border-radius: 5px;
-  border: 2px solid green;
-  padding: 5px;
-  font-size: 15px;
-  float: right;
-  width: 120px;
-  line-height: 1.5em;
-  clear: right;
-}
-
-.imagesidebar {
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  margin-left: 15px;
-  border-radius: 2px;
-  float: right;
-  width:120px ;
-  clear: right;
-  opacity: 1;
-  transition: opacity 0.5s ease-in-out;
-  border: 2px solid green;
-}
+  .imagesidebar {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 2px;
+    float: right;
+    width: 120px;
+    clear: right;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    border-left: 2px;border-right: 5px;
+  }
 }
 .video-wrapper {
   width: 100%;
