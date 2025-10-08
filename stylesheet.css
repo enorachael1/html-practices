@@ -202,10 +202,10 @@ p {
 /* MEDIA QUERY FOR MOBILE SCREENS */
 @media (max-width: 480px) {
   .imagesidebar {
-    display: none;
+    display: block;
   }
   .sideright {
-    display: none;
+    display: block;
   }
 }
 .video-wrapper {
