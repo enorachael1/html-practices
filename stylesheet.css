@@ -98,6 +98,7 @@ body {
   border-radius: 2px;
   font-size: 15px;
 }
+
 .sideright {
   background-color: #9acc9d;
   margin-top: 0px;
@@ -201,30 +202,35 @@ p {
 
 /* MEDIA QUERY FOR MOBILE SCREENS */
 @media (max-width: 480px) {
-  .imagesidebar,
   .sideright {
-    width: 100%;
-    float: none;
-    clear: both;
-    margin: 0 0 20px 0;
-    box-sizing: border-box;
+    background-color: #9acc9d;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 105%;
+    float: right;
+    width: 20%;
+    line-height: 1.5em;
+    clear: right;
   }
 
   .imagesidebar {
-    display: block;
-    max-width: 100%;
+    margin-top: 0px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 2px;
+    float: right;
+    width: 20%;
+    clear: right;
     opacity: 1;
     transition: opacity 0.5s ease-in-out;
   }
-
-  .sideright {
-    padding: 10px;
-  }
-
-  .main,
-  .mainsid {
-    width: 100%;
-    margin-right: 0;
+  .imagesidebar:hover {
+    opacity: 0.4;
   }
 }
 .video-wrapper {
