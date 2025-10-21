@@ -601,12 +601,12 @@ p[lang] {
 .nestedgrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2px;
-  padding: 2px;
+  grid-gap: 1px;
+  padding: 1px;
   grid-auto-rows: 100px;
 }
 p.nestedgrid {
-  border: 2px solid wheat;
+  border: 1px solid wheat;
 }
 .nestedgrid img {
   border: 2px solid white;
@@ -691,7 +691,7 @@ p.nestedgrid {
   background-color: mediumslateblue;
   color: white;
   text-align: center;
-  font-size: 20px;
+  font-size: 15px;
 }
 .section11 {
   grid-column: 1/4;
