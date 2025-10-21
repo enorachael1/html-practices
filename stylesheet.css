@@ -701,8 +701,8 @@ p.nestedgrid {
   text-align: center;
   font-size: 20px;
 }
-.section12 {
-  grid-column: 4/4;
+.Section12 {
+  grid-column: 4/5;
   grid-row: 1/8;
   background-color: black;
   color: white;
